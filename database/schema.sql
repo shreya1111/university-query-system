@@ -5,6 +5,10 @@ CREATE TABLE IF NOT EXISTS tickets (
     department   TEXT NOT NULL,
     priority     TEXT NOT NULL DEFAULT 'Medium',
     status       TEXT NOT NULL DEFAULT 'Pending',
+    intent       TEXT DEFAULT '',
+    summary      TEXT DEFAULT '',
+    sentiment    TEXT DEFAULT '',
+    auto_reply   TEXT DEFAULT '',
     created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
