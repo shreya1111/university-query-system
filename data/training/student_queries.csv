@@ -1,0 +1,2001 @@
+query,intent,department,priority,sentiment
+My email ID was not created even after 5 weeks of registration.,General,Help Desk,Medium,Negative
+Admission office is not responding to my emails for 3 days.,Admission,Admission Department,High,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+My fee refund has not been processed even after 7 months.,Finance,Finance Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,Medium,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Medium,Positive
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,High,Negative
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Medium,Positive
+What is the process to apply for revaluation?,Examination,Examination Department,Medium,Neutral
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Low,Positive
+What is the process for obtaining a migration certificate?,General,Help Desk,Low,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,Medium,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Medium,Neutral
+My email ID was not created even after 25 weeks of registration.,General,Help Desk,High,Negative
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+What clubs and societies are active this semester?,General,Help Desk,Low,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+What is the process to apply for revaluation?,Examination,Examination Department,Low,Neutral
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,Medium,Negative
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+My fee refund has not been processed even after 13 months.,Finance,Finance Department,High,Negative
+I have not received my offer letter even after 25 months of selection.,Placement,Placement Cell,High,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+The warden resolved my complaint within 15 hours.,Hostel,Hostel Department,Low,Positive
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,High,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Low,Neutral
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Medium,Positive
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,Medium,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+Is there a grace mark policy in the university?,Examination,Examination Department,Medium,Neutral
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Low,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,Medium,Negative
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Medium,Positive
+When will the end semester exam schedule be released?,Examination,Examination Department,Medium,Neutral
+My ID card has not been issued even after 7 weeks of joining.,General,Help Desk,High,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Medium,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+I got my corrected mark sheet within 14 days.,Examination,Examination Department,Low,Positive
+I paid the fee online but the portal still shows dues pending.,Finance,Finance Department,High,Negative
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+What are the accepted modes of fee payment?,Finance,Finance Department,Low,Neutral
+Where can I report a case of harassment?,Complaint,Student Affairs,Medium,Neutral
+When will semester results be declared?,Examination,Examination Department,Low,Neutral
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+What is the fee structure for international students?,Finance,Finance Department,Low,Neutral
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,Medium,Negative
+How do I check my admission status online?,Admission,Admission Department,Medium,Neutral
+My admission application has been pending for 20 weeks with no update.,Admission,Admission Department,High,Negative
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Low,Positive
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,High,Negative
+The new student portal is very user-friendly.,General,Help Desk,Low,Positive
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Medium,Positive
+Is off-campus placement assistance provided?,Placement,Placement Cell,Medium,Neutral
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+Is there a grace mark policy in the university?,Examination,Examination Department,Medium,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Medium,Positive
+Is air conditioning available in hostel rooms?,Hostel,Hostel Department,Low,Neutral
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Low,Positive
+How do I get a duplicate ID card?,General,Help Desk,Low,Neutral
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+My grade sheet shows incorrect marks for the third semester.,Examination,Examination Department,High,Negative
+My admission application has been pending for 4 weeks with no update.,Admission,Admission Department,High,Negative
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Medium,Positive
+My complaint was taken seriously and resolved within 12 days.,Complaint,Student Affairs,Low,Positive
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,Medium,Negative
+When is the scholarship application portal open?,Scholarship,Scholarship Cell,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+My application was rejected without any reason given.,Admission,Admission Department,High,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Low,Positive
+What clubs and societies are active this semester?,General,Help Desk,Low,Neutral
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,High,Negative
+I reported a maintenance issue 4 weeks ago but it is still unresolved.,Hostel,Hostel Department,High,Negative
+What is the process for obtaining a migration certificate?,General,Help Desk,Medium,Neutral
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+I got my corrected mark sheet within 3 days.,Examination,Examination Department,Medium,Positive
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Low,Neutral
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+My fee refund has not been processed even after 14 months.,Finance,Finance Department,Medium,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Low,Neutral
+There has been no water supply in the hostel for 16 days.,Hostel,Hostel Department,High,Negative
+My scholarship application has been pending for 6 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+The seat allotment letter has not been issued after 25 days of payment.,Admission,Admission Department,Medium,Negative
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,High,Negative
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+What is the procedure for exam form correction?,Examination,Examination Department,Low,Neutral
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+My ID card has not been issued even after 3 weeks of joining.,General,Help Desk,High,Negative
+When is the scholarship application portal open?,Scholarship,Scholarship Cell,Medium,Neutral
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Medium,Neutral
+My admission application has been pending for 11 weeks with no update.,Admission,Admission Department,High,Negative
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+The orientation program was well-organised.,General,Help Desk,Low,Positive
+My scholarship application has been pending for 11 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+How do I download my admit card from the portal?,Examination,Examination Department,Medium,Neutral
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+I was marked absent in the exam even though I was present.,Examination,Examination Department,Medium,Negative
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,Medium,Negative
+I have not received my offer letter even after 18 months of selection.,Placement,Placement Cell,High,Negative
+Where can I report a case of harassment?,Complaint,Student Affairs,Low,Neutral
+What are the transport routes available for students?,General,Help Desk,Medium,Neutral
+The notice board has outdated information.,General,Help Desk,High,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Low,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+My internal marks have not been updated for 5 subjects.,Examination,Examination Department,High,Negative
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,Medium,Negative
+My ID card has not been issued even after 6 weeks of joining.,General,Help Desk,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+Is there an anonymous complaint submission option?,Complaint,Student Affairs,Medium,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Low,Positive
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,High,Negative
+What documents are required for the admission process?,Admission,Admission Department,Medium,Neutral
+The seat allotment letter has not been issued after 30 days of payment.,Admission,Admission Department,Medium,Negative
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,Medium,Negative
+Can final year students from all branches register?,Placement,Placement Cell,Medium,Neutral
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,Medium,Negative
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,Medium,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,High,Negative
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,Medium,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,Medium,Negative
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,High,Negative
+My email ID was not created even after 16 weeks of registration.,General,Help Desk,High,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Medium,Neutral
+Which companies visited last year?,Placement,Placement Cell,Low,Neutral
+What is the fee structure for the new academic year?,Admission,Admission Department,Low,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+The challan generated has incorrect details.,Finance,Finance Department,High,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,Medium,Negative
+I reported a maintenance issue 26 weeks ago but it is still unresolved.,Hostel,Hostel Department,High,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Low,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Low,Positive
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Low,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+The university website has been down for 24 days.,General,Help Desk,Medium,Negative
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Low,Neutral
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Medium,Positive
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Low,Neutral
+I got my corrected mark sheet within 21 days.,Examination,Examination Department,Medium,Positive
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+How do I check my admission status online?,Admission,Admission Department,Medium,Neutral
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Medium,Neutral
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Medium,Positive
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Medium,Positive
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Low,Neutral
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,Medium,Negative
+The warden resolved my complaint within 28 hours.,Hostel,Hostel Department,Medium,Positive
+My merit list position was not updated even after re-verification.,Admission,Admission Department,High,Negative
+Wi-Fi in the hostel has not been working for 4 days.,Hostel,Hostel Department,High,Negative
+Is there an EMI option available for fee payment?,Finance,Finance Department,Medium,Neutral
+My fee refund has not been processed even after 6 months.,Finance,Finance Department,High,Negative
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,High,Negative
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,Medium,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+The warden resolved my complaint within 4 hours.,Hostel,Hostel Department,Medium,Positive
+I cannot find any information about the upcoming event.,General,Help Desk,Medium,Negative
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Low,Positive
+When will the second merit list be published?,Admission,Admission Department,Medium,Neutral
+The warden resolved my complaint within 26 hours.,Hostel,Hostel Department,Low,Positive
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Low,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,Medium,Negative
+My merit list position was not updated even after re-verification.,Admission,Admission Department,Medium,Negative
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+What is the fee structure for international students?,Finance,Finance Department,Low,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Low,Positive
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,Medium,Negative
+My complaint was taken seriously and resolved within 28 days.,Complaint,Student Affairs,Medium,Positive
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+What is the last date for fee payment this semester?,Finance,Finance Department,Medium,Neutral
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,Medium,Negative
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Low,Neutral
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+I received my admission confirmation letter on time.,Admission,Admission Department,Medium,Positive
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,Medium,Negative
+What is the fee structure for international students?,Finance,Finance Department,Medium,Neutral
+My grade sheet shows incorrect marks for the third semester.,Examination,Examination Department,High,Negative
+"My refund was processed within 24 working days, thank you.",Finance,Finance Department,Low,Positive
+The examination fee was deducted but the form was not submitted.,Examination,Examination Department,High,Negative
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Low,Neutral
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Medium,Positive
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Low,Positive
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Low,Neutral
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,Medium,Negative
+How do I apply for a room change?,Hostel,Hostel Department,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Low,Neutral
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Medium,Neutral
+The revaluation process was handled efficiently.,Examination,Examination Department,Medium,Positive
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,Medium,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Medium,Neutral
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+I was marked absent in the exam even though I was present.,Examination,Examination Department,High,Negative
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+Staff at the help desk were very cooperative.,General,Help Desk,Medium,Positive
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,Medium,Negative
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+The seat allotment letter has not been issued after 24 days of payment.,Admission,Admission Department,Medium,Negative
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+How do I check my admission status online?,Admission,Admission Department,Medium,Neutral
+Is there a grace mark policy in the university?,Examination,Examination Department,Low,Neutral
+How do I check my admission status online?,Admission,Admission Department,Low,Neutral
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+I have not received my offer letter even after 7 months of selection.,Placement,Placement Cell,Medium,Negative
+The seat allotment letter has not been issued after 13 days of payment.,Admission,Admission Department,High,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Low,Positive
+What is the refund policy for withdrawn students?,Finance,Finance Department,Medium,Neutral
+When will the end semester exam schedule be released?,Examination,Examination Department,Low,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+The seat allotment letter has not been issued after 2 days of payment.,Admission,Admission Department,Medium,Negative
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,Medium,Negative
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+Can I pay the fee in installments?,Finance,Finance Department,Medium,Neutral
+Can I pay the fee in installments?,Finance,Finance Department,Low,Neutral
+My seat allotment was updated within 19 hours as promised.,Admission,Admission Department,Low,Positive
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Low,Positive
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Medium,Positive
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,Medium,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,Medium,Negative
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Low,Positive
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+I could not find my roll number on the examination portal.,Examination,Examination Department,Medium,Negative
+The warden resolved my complaint within 29 hours.,Hostel,Hostel Department,Medium,Positive
+I appreciate the extended fee deadline during exam time.,Finance,Finance Department,Low,Positive
+My complaint submitted 17 days ago has not been acknowledged.,Complaint,Student Affairs,High,Negative
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,Medium,Negative
+My fee refund has not been processed even after 18 months.,Finance,Finance Department,High,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Medium,Positive
+I cannot find any information about the upcoming event.,General,Help Desk,Medium,Negative
+I have not received my offer letter even after 23 months of selection.,Placement,Placement Cell,High,Negative
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+"I received my ID card within 14 days, thank you.",General,Help Desk,Low,Positive
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Medium,Neutral
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Medium,Neutral
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+Is there a training program before placements?,Placement,Placement Cell,Medium,Neutral
+The company I was placed in has deferred joining by 21 months.,Placement,Placement Cell,High,Negative
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Low,Neutral
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Low,Positive
+The placement portal login is not working for me.,Placement,Placement Cell,Medium,Negative
+The staff at the admission office was very helpful.,Admission,Admission Department,Medium,Positive
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,Medium,Negative
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,Medium,Negative
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Medium,Neutral
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+How do I update my contact details on the portal?,General,Help Desk,Low,Neutral
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Medium,Positive
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+What is the last date for admission form submission?,Admission,Admission Department,Medium,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Low,Neutral
+The examination fee was deducted but the form was not submitted.,Examination,Examination Department,High,Negative
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+What action is taken against proven ragging cases?,Complaint,Student Affairs,Medium,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+What is the passing criteria for practical exams?,Examination,Examination Department,Medium,Neutral
+How do I access the university Wi-Fi?,General,Help Desk,Medium,Neutral
+"I got placed in a good company, thank you to the placement cell.",Placement,Placement Cell,Medium,Positive
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Medium,Neutral
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Low,Neutral
+The university website has been down for 11 days.,General,Help Desk,High,Negative
+My internal marks have not been updated for 5 subjects.,Examination,Examination Department,High,Negative
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+What are the transport routes available for students?,General,Help Desk,Medium,Neutral
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Medium,Neutral
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Medium,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+My complaint was taken seriously and resolved within 28 days.,Complaint,Student Affairs,Medium,Positive
+I received my offer letter within 10 days of the interview.,Placement,Placement Cell,Low,Positive
+The orientation program was well-organised.,General,Help Desk,Medium,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Medium,Positive
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,High,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Low,Positive
+Revaluation result is pending for over 9 months.,Examination,Examination Department,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+Is there an EMI option available for fee payment?,Finance,Finance Department,Low,Neutral
+Is there any concession for single-parent students?,Finance,Finance Department,Medium,Neutral
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,Medium,Negative
+My backlog exam date clashes with my regular exam schedule.,Examination,Examination Department,High,Negative
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+How do I apply for a room change?,Hostel,Hostel Department,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,Medium,Negative
+What is the fee structure for international students?,Finance,Finance Department,Medium,Neutral
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,Medium,Negative
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,Medium,Negative
+The exam timetable was changed without prior notice.,Examination,Examination Department,Medium,Negative
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Medium,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Low,Neutral
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+My admit card has not been generated even though exams start tomorrow.,Examination,Examination Department,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+I paid the fee online but the portal still shows dues pending.,Finance,Finance Department,Medium,Negative
+What are the library timings on weekends?,General,Help Desk,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,Medium,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+Wi-Fi in the hostel has not been working for 28 days.,Hostel,Hostel Department,High,Negative
+Is there an anonymous complaint submission option?,Complaint,Student Affairs,Low,Neutral
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,Medium,Negative
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,Medium,Negative
+The anti-ragging cell responded to my complaint immediately.,Complaint,Student Affairs,Low,Positive
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,High,Negative
+My complaint was taken seriously and resolved within 5 days.,Complaint,Student Affairs,Low,Positive
+I paid the fee online but the portal still shows dues pending.,Finance,Finance Department,High,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Low,Neutral
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+My grievance has been ignored by the department for 16 weeks.,Complaint,Student Affairs,High,Negative
+How do I get a duplicate ID card?,General,Help Desk,Low,Neutral
+What is the process for obtaining a migration certificate?,General,Help Desk,Low,Neutral
+The seat allotment letter has not been issued after 9 days of payment.,Admission,Admission Department,Medium,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Low,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Medium,Positive
+The company I was placed in has deferred joining by 10 months.,Placement,Placement Cell,High,Negative
+Wi-Fi in the hostel has not been working for 26 days.,Hostel,Hostel Department,Medium,Negative
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Low,Positive
+Admission office is not responding to my emails for 16 days.,Admission,Admission Department,Medium,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,Medium,Negative
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Medium,Neutral
+I received the scholarship amount before the semester began.,Scholarship,Scholarship Cell,Low,Positive
+My fee refund has not been processed even after 10 months.,Finance,Finance Department,High,Negative
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+My fee refund has not been processed even after 7 months.,Finance,Finance Department,High,Negative
+How do I apply for a room change?,Hostel,Hostel Department,Medium,Neutral
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+My email ID was not created even after 20 weeks of registration.,General,Help Desk,High,Negative
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,High,Negative
+There has been no water supply in the hostel for 15 days.,Hostel,Hostel Department,High,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Low,Neutral
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+The company I was placed in has deferred joining by 14 months.,Placement,Placement Cell,High,Negative
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,High,Negative
+I appreciate the extended fee deadline during exam time.,Finance,Finance Department,Medium,Positive
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+What is the procedure to vacate the hostel at year end?,Hostel,Hostel Department,Low,Neutral
+How do I download my admit card from the portal?,Examination,Examination Department,Medium,Neutral
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,Medium,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+How do I get a duplicate ID card?,General,Help Desk,Medium,Neutral
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,Medium,Negative
+My admission application has been pending for 30 weeks with no update.,Admission,Admission Department,High,Negative
+How do I download my admit card from the portal?,Examination,Examination Department,Medium,Neutral
+"I received my ID card within 18 days, thank you.",General,Help Desk,Low,Positive
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+When is the scholarship application portal open?,Scholarship,Scholarship Cell,Low,Neutral
+My ID card has not been issued even after 28 weeks of joining.,General,Help Desk,Medium,Negative
+My application was rejected without any reason given.,Admission,Admission Department,High,Negative
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Medium,Neutral
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+The company I was placed in has deferred joining by 7 months.,Placement,Placement Cell,High,Negative
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+The campus facilities have improved a lot this year.,General,Help Desk,Medium,Positive
+I got my corrected mark sheet within 15 days.,Examination,Examination Department,Medium,Positive
+"I got placed in a good company, thank you to the placement cell.",Placement,Placement Cell,Medium,Positive
+What is the procedure to vacate the hostel at year end?,Hostel,Hostel Department,Medium,Neutral
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+Admission office is not responding to my emails for 11 days.,Admission,Admission Department,High,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Low,Positive
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+What are the library timings on weekends?,General,Help Desk,Low,Neutral
+The library is closed during exam preparation time.,General,Help Desk,Medium,Negative
+Is there a grace mark policy in the university?,Examination,Examination Department,Medium,Neutral
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,Medium,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Medium,Neutral
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Low,Neutral
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+What is the process for obtaining a migration certificate?,General,Help Desk,Medium,Neutral
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the last date for fee payment this semester?,Finance,Finance Department,Low,Neutral
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,High,Negative
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Low,Neutral
+When is the scholarship application portal open?,Scholarship,Scholarship Cell,Low,Neutral
+The revaluation process was handled efficiently.,Examination,Examination Department,Medium,Positive
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+There has been no water supply in the hostel for 25 days.,Hostel,Hostel Department,High,Negative
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Medium,Neutral
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,Medium,Negative
+What is the process for NRI admission?,Admission,Admission Department,Medium,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,Medium,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+The anti-ragging cell responded to my complaint immediately.,Complaint,Student Affairs,Low,Positive
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,Medium,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+I was marked absent in the exam even though I was present.,Examination,Examination Department,High,Negative
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Medium,Neutral
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+What is the academic calendar for this year?,General,Help Desk,Low,Neutral
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Low,Positive
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,Medium,Negative
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Medium,Neutral
+How can I get a duplicate fee receipt?,Finance,Finance Department,Low,Neutral
+The examination fee was deducted but the form was not submitted.,Examination,Examination Department,High,Negative
+My complaint was taken seriously and resolved within 16 days.,Complaint,Student Affairs,Medium,Positive
+My fee refund has not been processed even after 18 months.,Finance,Finance Department,High,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Low,Neutral
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Medium,Neutral
+My scholarship application has been pending for 20 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,Medium,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+When will the second merit list be published?,Admission,Admission Department,Low,Neutral
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,Medium,Negative
+Can I change my branch after the first year?,Admission,Admission Department,Low,Neutral
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,Medium,Negative
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Medium,Positive
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+The staff at the admission office was very helpful.,Admission,Admission Department,Medium,Positive
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Low,Neutral
+What is the refund policy for withdrawn students?,Finance,Finance Department,Medium,Neutral
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+My grievance has been ignored by the department for 11 weeks.,Complaint,Student Affairs,Medium,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Low,Neutral
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Low,Positive
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Medium,Neutral
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Low,Positive
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,Medium,Negative
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+My merit list position was not updated even after re-verification.,Admission,Admission Department,High,Negative
+Revaluation result is pending for over 4 months.,Examination,Examination Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Medium,Positive
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,Medium,Negative
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Medium,Positive
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+Where can I report a case of harassment?,Complaint,Student Affairs,Low,Neutral
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+Can I pay the fee in installments?,Finance,Finance Department,Medium,Neutral
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Low,Positive
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Low,Neutral
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,Medium,Negative
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+What action is taken against proven ragging cases?,Complaint,Student Affairs,Low,Neutral
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Low,Neutral
+I got my corrected mark sheet within 27 days.,Examination,Examination Department,Low,Positive
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+The placement portal login is not working for me.,Placement,Placement Cell,High,Negative
+Can final year students from all branches register?,Placement,Placement Cell,Medium,Neutral
+Can I pay the fee in installments?,Finance,Finance Department,Medium,Neutral
+How do I apply for a room change?,Hostel,Hostel Department,Low,Neutral
+Is laundry service available in the hostel?,Hostel,Hostel Department,Medium,Neutral
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,Medium,Negative
+Wi-Fi in the hostel has not been working for 15 days.,Hostel,Hostel Department,Medium,Negative
+How do I update my contact details on the portal?,General,Help Desk,Low,Neutral
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+Who is the grievance redressal officer?,Complaint,Student Affairs,Low,Neutral
+The library is closed during exam preparation time.,General,Help Desk,Medium,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Medium,Positive
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,Medium,Negative
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Low,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,High,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Low,Neutral
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,Medium,Negative
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+Which companies visited last year?,Placement,Placement Cell,Medium,Neutral
+The challan generated has incorrect details.,Finance,Finance Department,High,Negative
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Medium,Neutral
+What is the procedure to vacate the hostel at year end?,Hostel,Hostel Department,Low,Neutral
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,High,Negative
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Low,Neutral
+My complaint was taken seriously and resolved within 13 days.,Complaint,Student Affairs,Medium,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+My email ID was not created even after 29 weeks of registration.,General,Help Desk,High,Negative
+What are the transport routes available for students?,General,Help Desk,Low,Neutral
+The exam timetable was changed without prior notice.,Examination,Examination Department,Medium,Negative
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Low,Neutral
+"I got placed in a good company, thank you to the placement cell.",Placement,Placement Cell,Low,Positive
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Medium,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+When will campus placements begin this year?,Placement,Placement Cell,Low,Neutral
+What is the fee structure for the new academic year?,Admission,Admission Department,Low,Neutral
+My fee refund has not been processed even after 26 months.,Finance,Finance Department,High,Negative
+What is the process for obtaining a migration certificate?,General,Help Desk,Medium,Neutral
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Low,Positive
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Medium,Positive
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+Is there an EMI option available for fee payment?,Finance,Finance Department,Low,Neutral
+My application was rejected without any reason given.,Admission,Admission Department,Medium,Negative
+"My refund was processed within 13 working days, thank you.",Finance,Finance Department,Low,Positive
+When will the second merit list be published?,Admission,Admission Department,Medium,Neutral
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+I received my offer letter within 17 days of the interview.,Placement,Placement Cell,Low,Positive
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+My fee refund has not been processed even after 25 months.,Finance,Finance Department,Medium,Negative
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+"I got placed in a good company, thank you to the placement cell.",Placement,Placement Cell,Low,Positive
+There has been no water supply in the hostel for 19 days.,Hostel,Hostel Department,Medium,Negative
+The orientation program was well-organised.,General,Help Desk,Medium,Positive
+The library is closed during exam preparation time.,General,Help Desk,Medium,Negative
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,High,Negative
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Medium,Positive
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+The staff at the admission office was very helpful.,Admission,Admission Department,Low,Positive
+What documents are required for the admission process?,Admission,Admission Department,Medium,Neutral
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+The company I was placed in has deferred joining by 19 months.,Placement,Placement Cell,High,Negative
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,High,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+My grievance has been ignored by the department for 30 weeks.,Complaint,Student Affairs,Medium,Negative
+My admission application has been pending for 4 weeks with no update.,Admission,Admission Department,Medium,Negative
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Low,Neutral
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,High,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Medium,Positive
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+My admission application has been pending for 11 weeks with no update.,Admission,Admission Department,High,Negative
+My complaint was taken seriously and resolved within 21 days.,Complaint,Student Affairs,Low,Positive
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Low,Positive
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,Medium,Negative
+Is there any concession for single-parent students?,Finance,Finance Department,Low,Neutral
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,High,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Medium,Neutral
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,Medium,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Medium,Neutral
+The challan generated has incorrect details.,Finance,Finance Department,High,Negative
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+The university website has been down for 3 days.,General,Help Desk,High,Negative
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,Medium,Negative
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Medium,Neutral
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+What is the process to apply for revaluation?,Examination,Examination Department,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,Medium,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,Medium,Negative
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Low,Positive
+I received my offer letter within 20 days of the interview.,Placement,Placement Cell,Low,Positive
+My ID card has not been issued even after 30 weeks of joining.,General,Help Desk,Medium,Negative
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Low,Neutral
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,Medium,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,Medium,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,High,Negative
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Medium,Neutral
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,Medium,Negative
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,Medium,Negative
+What is the academic calendar for this year?,General,Help Desk,Low,Neutral
+What is the fee structure for international students?,Finance,Finance Department,Low,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Low,Positive
+My admit card has not been generated even though exams start tomorrow.,Examination,Examination Department,Medium,Negative
+What is the passing criteria for practical exams?,Examination,Examination Department,Medium,Neutral
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Medium,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,Medium,Negative
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Low,Neutral
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+My grade sheet shows incorrect marks for the third semester.,Examination,Examination Department,High,Negative
+My admission application has been pending for 29 weeks with no update.,Admission,Admission Department,High,Negative
+The company I was placed in has deferred joining by 19 months.,Placement,Placement Cell,High,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+The warden resolved my complaint within 27 hours.,Hostel,Hostel Department,Low,Positive
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+The exam timetable was changed without prior notice.,Examination,Examination Department,High,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+What is the process to apply for revaluation?,Examination,Examination Department,Low,Neutral
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,Medium,Negative
+The company I was placed in has deferred joining by 28 months.,Placement,Placement Cell,High,Negative
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Low,Positive
+What is the last date for admission form submission?,Admission,Admission Department,Medium,Neutral
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Low,Positive
+The warden resolved my complaint within 11 hours.,Hostel,Hostel Department,Low,Positive
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+Is there a grace mark policy in the university?,Examination,Examination Department,Low,Neutral
+"I got placed in a good company, thank you to the placement cell.",Placement,Placement Cell,Low,Positive
+Which companies visited last year?,Placement,Placement Cell,Low,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+Is laundry service available in the hostel?,Hostel,Hostel Department,Low,Neutral
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+What action is taken against proven ragging cases?,Complaint,Student Affairs,Medium,Neutral
+Is there an EMI option available for fee payment?,Finance,Finance Department,Low,Neutral
+The notice board has outdated information.,General,Help Desk,High,Negative
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,Medium,Negative
+Can I pay the fee in installments?,Finance,Finance Department,Medium,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+My scholarship application has been pending for 25 months with no update.,Scholarship,Scholarship Cell,High,Negative
+How do I get a duplicate ID card?,General,Help Desk,Low,Neutral
+Is there a provision for sports quota admission?,Admission,Admission Department,Low,Neutral
+I was marked absent in the exam even though I was present.,Examination,Examination Department,Medium,Negative
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,Medium,Negative
+How do I apply for a room change?,Hostel,Hostel Department,Low,Neutral
+The placement portal login is not working for me.,Placement,Placement Cell,High,Negative
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+Where can I report a case of harassment?,Complaint,Student Affairs,Low,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+The placement portal login is not working for me.,Placement,Placement Cell,High,Negative
+The orientation program was well-organised.,General,Help Desk,Low,Positive
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,Medium,Negative
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+Can I pay the fee in installments?,Finance,Finance Department,Medium,Neutral
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Low,Positive
+My complaint submitted 30 days ago has not been acknowledged.,Complaint,Student Affairs,High,Negative
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+My merit list position was not updated even after re-verification.,Admission,Admission Department,High,Negative
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Medium,Positive
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+What is the fee structure for international students?,Finance,Finance Department,Medium,Neutral
+The orientation program was well-organised.,General,Help Desk,Medium,Positive
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Medium,Neutral
+The anti-ragging cell responded to my complaint immediately.,Complaint,Student Affairs,Medium,Positive
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Low,Neutral
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Medium,Positive
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,High,Negative
+The warden resolved my complaint within 24 hours.,Hostel,Hostel Department,Medium,Positive
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+My grievance has been ignored by the department for 20 weeks.,Complaint,Student Affairs,Medium,Negative
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Low,Neutral
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+The revaluation process was handled efficiently.,Examination,Examination Department,Medium,Positive
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+Admission office is not responding to my emails for 21 days.,Admission,Admission Department,High,Negative
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+I reported a maintenance issue 20 weeks ago but it is still unresolved.,Hostel,Hostel Department,Medium,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,Medium,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+How do I access the university Wi-Fi?,General,Help Desk,Medium,Neutral
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Low,Neutral
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,Medium,Negative
+I was marked absent in the exam even though I was present.,Examination,Examination Department,High,Negative
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Medium,Neutral
+The seat allotment letter has not been issued after 15 days of payment.,Admission,Admission Department,High,Negative
+The notice board has outdated information.,General,Help Desk,High,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Low,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Medium,Positive
+I reported a maintenance issue 11 weeks ago but it is still unresolved.,Hostel,Hostel Department,High,Negative
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Medium,Positive
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+How do I get a duplicate ID card?,General,Help Desk,Low,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Medium,Positive
+The warden resolved my complaint within 22 hours.,Hostel,Hostel Department,Medium,Positive
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Medium,Neutral
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,Medium,Negative
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+What documents are required for the admission process?,Admission,Admission Department,Medium,Neutral
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+Can I pay the fee in installments?,Finance,Finance Department,Medium,Neutral
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the refund policy for withdrawn students?,Finance,Finance Department,Low,Neutral
+I got my corrected mark sheet within 3 days.,Examination,Examination Department,Medium,Positive
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Medium,Neutral
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Low,Positive
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+The company I was placed in has deferred joining by 25 months.,Placement,Placement Cell,High,Negative
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,Medium,Negative
+Is laundry service available in the hostel?,Hostel,Hostel Department,Medium,Neutral
+What is the procedure for exam form correction?,Examination,Examination Department,Low,Neutral
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Medium,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Low,Neutral
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,Medium,Negative
+The challan generated has incorrect details.,Finance,Finance Department,Medium,Negative
+Which companies visited last year?,Placement,Placement Cell,Medium,Neutral
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+I have not received my offer letter even after 24 months of selection.,Placement,Placement Cell,High,Negative
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,High,Negative
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,Medium,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+The orientation program was well-organised.,General,Help Desk,Low,Positive
+How do I register on the placement portal?,Placement,Placement Cell,Low,Neutral
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+The challan generated has incorrect details.,Finance,Finance Department,High,Negative
+My admit card has not been generated even though exams start tomorrow.,Examination,Examination Department,High,Negative
+My seat allotment was updated within 20 hours as promised.,Admission,Admission Department,Medium,Positive
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+Is there an EMI option available for fee payment?,Finance,Finance Department,Low,Neutral
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+Is there a training program before placements?,Placement,Placement Cell,Low,Neutral
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Medium,Positive
+The placement training sessions were very useful.,Placement,Placement Cell,Medium,Positive
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+Is laundry service available in the hostel?,Hostel,Hostel Department,Low,Neutral
+"My refund was processed within 29 working days, thank you.",Finance,Finance Department,Low,Positive
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Medium,Positive
+When will the end semester exam schedule be released?,Examination,Examination Department,Medium,Neutral
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+My ID card has not been issued even after 21 weeks of joining.,General,Help Desk,High,Negative
+What is the process for obtaining a migration certificate?,General,Help Desk,Medium,Neutral
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+My email ID was not created even after 3 weeks of registration.,General,Help Desk,High,Negative
+How do I check my admission status online?,Admission,Admission Department,Medium,Neutral
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Medium,Neutral
+Is off-campus placement assistance provided?,Placement,Placement Cell,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Low,Neutral
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+My complaint was taken seriously and resolved within 24 days.,Complaint,Student Affairs,Medium,Positive
+How do I apply for a room change?,Hostel,Hostel Department,Medium,Neutral
+The university website has been down for 14 days.,General,Help Desk,Medium,Negative
+Is there an anonymous complaint submission option?,Complaint,Student Affairs,Medium,Neutral
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Low,Positive
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,High,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Medium,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Medium,Neutral
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Low,Positive
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+Is laundry service available in the hostel?,Hostel,Hostel Department,Low,Neutral
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+The notice board has outdated information.,General,Help Desk,High,Negative
+"My admit card was generated on time, thank you.",Examination,Examination Department,Medium,Positive
+How do I download my admit card from the portal?,Examination,Examination Department,Medium,Neutral
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,Medium,Negative
+What is the procedure to vacate the hostel at year end?,Hostel,Hostel Department,Medium,Neutral
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,Medium,Negative
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+The seat allotment letter has not been issued after 19 days of payment.,Admission,Admission Department,High,Negative
+What is the process to apply for revaluation?,Examination,Examination Department,Medium,Neutral
+I paid the fee online but the portal still shows dues pending.,Finance,Finance Department,Medium,Negative
+The challan generated has incorrect details.,Finance,Finance Department,Medium,Negative
+When will campus placements begin this year?,Placement,Placement Cell,Medium,Neutral
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Low,Neutral
+What documents are required for the admission process?,Admission,Admission Department,Medium,Neutral
+The staff at the admission office was very helpful.,Admission,Admission Department,Medium,Positive
+Wi-Fi in the hostel has not been working for 16 days.,Hostel,Hostel Department,Medium,Negative
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+When is the scholarship application portal open?,Scholarship,Scholarship Cell,Low,Neutral
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+My fee refund has not been processed even after 7 months.,Finance,Finance Department,High,Negative
+I received my offer letter within 26 days of the interview.,Placement,Placement Cell,Medium,Positive
+When will the second merit list be published?,Admission,Admission Department,Medium,Neutral
+The placement portal login is not working for me.,Placement,Placement Cell,Medium,Negative
+My admission application has been pending for 9 weeks with no update.,Admission,Admission Department,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+I could not find my roll number on the examination portal.,Examination,Examination Department,Medium,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Medium,Neutral
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Low,Neutral
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Low,Neutral
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Medium,Positive
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,Medium,Negative
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+Is there a provision for sports quota admission?,Admission,Admission Department,Low,Neutral
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Low,Neutral
+What is the process for NRI admission?,Admission,Admission Department,Medium,Neutral
+When will the second merit list be published?,Admission,Admission Department,Low,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Low,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Low,Positive
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the last date for admission form submission?,Admission,Admission Department,Medium,Neutral
+Is direct admission available for lateral entry students?,Admission,Admission Department,Low,Neutral
+My seat allotment was updated within 20 hours as promised.,Admission,Admission Department,Low,Positive
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Low,Positive
+My grievance has been ignored by the department for 25 weeks.,Complaint,Student Affairs,Medium,Negative
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,High,Negative
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Medium,Neutral
+What action is taken against proven ragging cases?,Complaint,Student Affairs,Medium,Neutral
+My grievance has been ignored by the department for 29 weeks.,Complaint,Student Affairs,Medium,Negative
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,Medium,Negative
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+The help desk is not responding to my queries.,General,Help Desk,Medium,Negative
+My scholarship application has been pending for 14 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,High,Negative
+The exam timetable was changed without prior notice.,Examination,Examination Department,Medium,Negative
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Low,Positive
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+Where can I report a case of harassment?,Complaint,Student Affairs,Medium,Neutral
+"My refund was processed within 20 working days, thank you.",Finance,Finance Department,Medium,Positive
+Which companies visited last year?,Placement,Placement Cell,Low,Neutral
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,High,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+The revaluation process was handled efficiently.,Examination,Examination Department,Medium,Positive
+My scholarship application has been pending for 19 months with no update.,Scholarship,Scholarship Cell,High,Negative
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,Medium,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,Medium,Negative
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,Medium,Negative
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,Medium,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,Medium,Negative
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,Medium,Negative
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,High,Negative
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Low,Positive
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,High,Negative
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Medium,Positive
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Low,Neutral
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,High,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Medium,Positive
+What are the accepted modes of fee payment?,Finance,Finance Department,Low,Neutral
+"My refund was processed within 27 working days, thank you.",Finance,Finance Department,Low,Positive
+Revaluation result is pending for over 26 months.,Examination,Examination Department,High,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+"I received my ID card within 15 days, thank you.",General,Help Desk,Medium,Positive
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,High,Negative
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,Medium,Negative
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Medium,Positive
+I received my offer letter within 7 days of the interview.,Placement,Placement Cell,Low,Positive
+My ID card has not been issued even after 25 weeks of joining.,General,Help Desk,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,High,Negative
+Is off-campus placement assistance provided?,Placement,Placement Cell,Medium,Neutral
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+My seat allotment was updated within 26 hours as promised.,Admission,Admission Department,Low,Positive
+How do I get a duplicate ID card?,General,Help Desk,Low,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,Medium,Negative
+Admission office is not responding to my emails for 22 days.,Admission,Admission Department,High,Negative
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+I was marked absent in the exam even though I was present.,Examination,Examination Department,Medium,Negative
+There has been no water supply in the hostel for 6 days.,Hostel,Hostel Department,Medium,Negative
+My fee refund has not been processed even after 13 months.,Finance,Finance Department,Medium,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+What is the process for NRI admission?,Admission,Admission Department,Medium,Neutral
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,Medium,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Medium,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+My scholarship application has been pending for 24 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Low,Neutral
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Low,Neutral
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,High,Negative
+There has been no water supply in the hostel for 4 days.,Hostel,Hostel Department,Medium,Negative
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,Medium,Negative
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,High,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+Admission office is not responding to my emails for 23 days.,Admission,Admission Department,Medium,Negative
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+I have not received my offer letter even after 2 months of selection.,Placement,Placement Cell,High,Negative
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Low,Neutral
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Low,Neutral
+Is there an EMI option available for fee payment?,Finance,Finance Department,Medium,Neutral
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Low,Neutral
+How do I access the university Wi-Fi?,General,Help Desk,Low,Neutral
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+My fee refund has not been processed even after 29 months.,Finance,Finance Department,High,Negative
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,Medium,Negative
+I was marked absent in the exam even though I was present.,Examination,Examination Department,High,Negative
+My fee refund has not been processed even after 4 months.,Finance,Finance Department,High,Negative
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,Medium,Negative
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,Medium,Negative
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,High,Negative
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,Medium,Negative
+My fee refund has not been processed even after 10 months.,Finance,Finance Department,Medium,Negative
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Low,Neutral
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,Medium,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Low,Positive
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,Medium,Negative
+I paid the fee online but the portal still shows dues pending.,Finance,Finance Department,Medium,Negative
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,Medium,Negative
+My seat allotment was updated within 3 hours as promised.,Admission,Admission Department,Low,Positive
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,Medium,Negative
+Which companies visited last year?,Placement,Placement Cell,Medium,Neutral
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+My internal marks have not been updated for 12 subjects.,Examination,Examination Department,Medium,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+The challan generated has incorrect details.,Finance,Finance Department,High,Negative
+What is the process for NRI admission?,Admission,Admission Department,Low,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+My seat allotment was updated within 19 hours as promised.,Admission,Admission Department,Medium,Positive
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+Where is the medical centre located on campus?,General,Help Desk,Low,Neutral
+My admission application has been pending for 5 weeks with no update.,Admission,Admission Department,High,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,Medium,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Low,Neutral
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,Medium,Negative
+Is direct admission available for lateral entry students?,Admission,Admission Department,Low,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+When will the second merit list be published?,Admission,Admission Department,Medium,Neutral
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,High,Negative
+When is the scholarship application portal open?,Scholarship,Scholarship Cell,Medium,Neutral
+My email ID was not created even after 23 weeks of registration.,General,Help Desk,Medium,Negative
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,High,Negative
+My application was rejected without any reason given.,Admission,Admission Department,High,Negative
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Low,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Low,Positive
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+My admission application has been pending for 6 weeks with no update.,Admission,Admission Department,High,Negative
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,Medium,Negative
+What is the last date for admission form submission?,Admission,Admission Department,Low,Neutral
+There has been no water supply in the hostel for 9 days.,Hostel,Hostel Department,High,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+The university website has been down for 6 days.,General,Help Desk,Medium,Negative
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+When will campus placements begin this year?,Placement,Placement Cell,Low,Neutral
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,Medium,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+The company I was placed in has deferred joining by 3 months.,Placement,Placement Cell,High,Negative
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Low,Neutral
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Low,Neutral
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Low,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Medium,Positive
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Medium,Positive
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+When will the end semester exam schedule be released?,Examination,Examination Department,Low,Neutral
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,Medium,Negative
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Low,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Low,Positive
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+What are the library timings on weekends?,General,Help Desk,Medium,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Low,Positive
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,High,Negative
+The examination fee was deducted but the form was not submitted.,Examination,Examination Department,High,Negative
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,Medium,Negative
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Medium,Neutral
+Staff at the help desk were very cooperative.,General,Help Desk,Medium,Positive
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,Medium,Negative
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,High,Negative
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Low,Neutral
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,Medium,Negative
+The university website has been down for 6 days.,General,Help Desk,High,Negative
+My grievance has been ignored by the department for 26 weeks.,Complaint,Student Affairs,Medium,Negative
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,High,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Medium,Neutral
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Low,Positive
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Low,Neutral
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Low,Neutral
+When will the second merit list be published?,Admission,Admission Department,Low,Neutral
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+What action is taken against proven ragging cases?,Complaint,Student Affairs,Low,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+Is there an anonymous complaint submission option?,Complaint,Student Affairs,Low,Neutral
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+The placement portal login is not working for me.,Placement,Placement Cell,Medium,Negative
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Medium,Positive
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,Medium,Negative
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Medium,Positive
+My scholarship application has been pending for 19 months with no update.,Scholarship,Scholarship Cell,High,Negative
+What is the process for obtaining a migration certificate?,General,Help Desk,Medium,Neutral
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Low,Positive
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+I reported a maintenance issue 12 weeks ago but it is still unresolved.,Hostel,Hostel Department,High,Negative
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Low,Positive
+What action is taken against proven ragging cases?,Complaint,Student Affairs,Low,Neutral
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,Medium,Negative
+My seat allotment was updated within 10 hours as promised.,Admission,Admission Department,Low,Positive
+My merit list position was not updated even after re-verification.,Admission,Admission Department,High,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,Medium,Negative
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Low,Positive
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The help desk is not responding to my queries.,General,Help Desk,Medium,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,Medium,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Medium,Positive
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+My complaint was taken seriously and resolved within 22 days.,Complaint,Student Affairs,Low,Positive
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,High,Negative
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+Wi-Fi in the hostel has not been working for 26 days.,Hostel,Hostel Department,Medium,Negative
+Revaluation result is pending for over 24 months.,Examination,Examination Department,High,Negative
+What are the library timings on weekends?,General,Help Desk,Low,Neutral
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+The finance department is not responding to my refund request.,Finance,Finance Department,Medium,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Medium,Neutral
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,High,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+"My refund was processed within 9 working days, thank you.",Finance,Finance Department,Medium,Positive
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Low,Positive
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Medium,Positive
+There has been no water supply in the hostel for 3 days.,Hostel,Hostel Department,High,Negative
+How do I download my admit card from the portal?,Examination,Examination Department,Low,Neutral
+My email ID was not created even after 25 weeks of registration.,General,Help Desk,High,Negative
+"My admit card was generated on time, thank you.",Examination,Examination Department,Medium,Positive
+Where is the medical centre located on campus?,General,Help Desk,Low,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,Medium,Negative
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,Medium,Negative
+Where is the medical centre located on campus?,General,Help Desk,Low,Neutral
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,Medium,Negative
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,Medium,Negative
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,Medium,Negative
+The scholarship cell staff helped me complete my application.,Scholarship,Scholarship Cell,Medium,Positive
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the academic calendar for this year?,General,Help Desk,Low,Neutral
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Low,Neutral
+"My refund was processed within 25 working days, thank you.",Finance,Finance Department,Medium,Positive
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+The campus facilities have improved a lot this year.,General,Help Desk,Medium,Positive
+What documents are required for the admission process?,Admission,Admission Department,Low,Neutral
+When will campus placements begin this year?,Placement,Placement Cell,Medium,Neutral
+How do I download my admit card from the portal?,Examination,Examination Department,Low,Neutral
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+My scholarship application has been pending for 29 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+When will semester results be declared?,Examination,Examination Department,Low,Neutral
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+What are the library timings on weekends?,General,Help Desk,Low,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+"My refund was processed within 19 working days, thank you.",Finance,Finance Department,Low,Positive
+My seat allotment was updated within 19 hours as promised.,Admission,Admission Department,Low,Positive
+What clubs and societies are active this semester?,General,Help Desk,Low,Neutral
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,High,Negative
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Medium,Neutral
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+How do I check my admission status online?,Admission,Admission Department,Low,Neutral
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,Medium,Negative
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Low,Positive
+Is there a training program before placements?,Placement,Placement Cell,Low,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,High,Negative
+My seat allotment was updated within 12 hours as promised.,Admission,Admission Department,Low,Positive
+The exam timetable was changed without prior notice.,Examination,Examination Department,Medium,Negative
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,High,Negative
+How do I download my fee receipt from the portal?,Finance,Finance Department,Low,Neutral
+The exam timetable was changed without prior notice.,Examination,Examination Department,High,Negative
+My email ID was not created even after 25 weeks of registration.,General,Help Desk,Medium,Negative
+My complaint was taken seriously and resolved within 8 days.,Complaint,Student Affairs,Medium,Positive
+My admission application has been pending for 9 weeks with no update.,Admission,Admission Department,High,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Medium,Positive
+What is the academic calendar for this year?,General,Help Desk,Low,Neutral
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,High,Negative
+The library is closed during exam preparation time.,General,Help Desk,Medium,Negative
+Is there a grace mark policy in the university?,Examination,Examination Department,Medium,Neutral
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,Medium,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,Medium,Negative
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Low,Neutral
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+"I received my ID card within 22 days, thank you.",General,Help Desk,Low,Positive
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Low,Neutral
+My backlog exam date clashes with my regular exam schedule.,Examination,Examination Department,Medium,Negative
+My application was rejected without any reason given.,Admission,Admission Department,Medium,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+I have not received my offer letter even after 4 months of selection.,Placement,Placement Cell,High,Negative
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,Medium,Negative
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Medium,Positive
+My grievance has been ignored by the department for 16 weeks.,Complaint,Student Affairs,High,Negative
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,High,Negative
+What are the transport routes available for students?,General,Help Desk,Medium,Neutral
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+I appreciate the extended fee deadline during exam time.,Finance,Finance Department,Medium,Positive
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Low,Neutral
+What is the procedure for exam form correction?,Examination,Examination Department,Medium,Neutral
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The notice board has outdated information.,General,Help Desk,Medium,Negative
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Medium,Positive
+My ID card has not been issued even after 2 weeks of joining.,General,Help Desk,Medium,Negative
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Medium,Neutral
+Is there any concession for single-parent students?,Finance,Finance Department,Medium,Neutral
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+Is laundry service available in the hostel?,Hostel,Hostel Department,Low,Neutral
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Low,Neutral
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Low,Positive
+I appreciate the timely maintenance work done in my room.,Hostel,Hostel Department,Low,Positive
+"My refund was processed within 26 working days, thank you.",Finance,Finance Department,Low,Positive
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+My seat allotment was updated within 19 hours as promised.,Admission,Admission Department,Low,Positive
+Wi-Fi in the hostel has not been working for 5 days.,Hostel,Hostel Department,High,Negative
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,High,Negative
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Low,Positive
+What is the fee structure for international students?,Finance,Finance Department,Medium,Neutral
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Low,Neutral
+Is there a grace mark policy in the university?,Examination,Examination Department,Low,Neutral
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+When will semester results be declared?,Examination,Examination Department,Low,Neutral
+My scholarship application has been pending for 7 months with no update.,Scholarship,Scholarship Cell,High,Negative
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Medium,Neutral
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+Is there any concession for single-parent students?,Finance,Finance Department,Medium,Neutral
+The staff at the admission office was very helpful.,Admission,Admission Department,Low,Positive
+How can I get a duplicate fee receipt?,Finance,Finance Department,Medium,Neutral
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+Revaluation result is pending for over 3 months.,Examination,Examination Department,Medium,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Medium,Positive
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Medium,Positive
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Low,Neutral
+Is there an EMI option available for fee payment?,Finance,Finance Department,Medium,Neutral
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,Medium,Negative
+"I received my ID card within 2 days, thank you.",General,Help Desk,Low,Positive
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Low,Positive
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,Medium,Negative
+I have not received my offer letter even after 7 months of selection.,Placement,Placement Cell,Medium,Negative
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,Medium,Negative
+Admission office is not responding to my emails for 30 days.,Admission,Admission Department,High,Negative
+Wi-Fi in the hostel has not been working for 2 days.,Hostel,Hostel Department,Medium,Negative
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+A faculty member is giving biased marks to certain students.,Complaint,Student Affairs,Medium,Negative
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Low,Neutral
+I could not find my roll number on the examination portal.,Examination,Examination Department,High,Negative
+My email ID was not created even after 5 weeks of registration.,General,Help Desk,High,Negative
+How do I apply for a room change?,Hostel,Hostel Department,Medium,Neutral
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,Medium,Negative
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Low,Neutral
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+The online payment system is very convenient.,Finance,Finance Department,Medium,Positive
+Is there a training program before placements?,Placement,Placement Cell,Medium,Neutral
+My complaint submitted 7 days ago has not been acknowledged.,Complaint,Student Affairs,Medium,Negative
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Medium,Positive
+What are the transport routes available for students?,General,Help Desk,Medium,Neutral
+I reported a maintenance issue 24 weeks ago but it is still unresolved.,Hostel,Hostel Department,High,Negative
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,Medium,Negative
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Medium,Neutral
+What is the exam form fill-up last date?,Examination,Examination Department,Low,Neutral
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+I got my corrected mark sheet within 7 days.,Examination,Examination Department,Low,Positive
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,High,Negative
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,Medium,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+The placement portal login is not working for me.,Placement,Placement Cell,Medium,Negative
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+I received my offer letter within 28 days of the interview.,Placement,Placement Cell,Low,Positive
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,High,Negative
+My complaint was taken seriously and resolved within 3 days.,Complaint,Student Affairs,Low,Positive
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Medium,Positive
+I have not received my offer letter even after 30 months of selection.,Placement,Placement Cell,High,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Low,Neutral
+My merit list position was not updated even after re-verification.,Admission,Admission Department,Medium,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Medium,Neutral
+Is there any concession for single-parent students?,Finance,Finance Department,Low,Neutral
+How do I check my admission status online?,Admission,Admission Department,Low,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,Medium,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,Medium,Negative
+What is the last date for fee payment this semester?,Finance,Finance Department,Low,Neutral
+The seat allotment letter has not been issued after 21 days of payment.,Admission,Admission Department,Medium,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+How do I access the university Wi-Fi?,General,Help Desk,Medium,Neutral
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,Medium,Negative
+Can I change my branch after the first year?,Admission,Admission Department,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Low,Neutral
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+When will the second merit list be published?,Admission,Admission Department,Medium,Neutral
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+My grade sheet shows incorrect marks for the third semester.,Examination,Examination Department,Medium,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+I cannot find any information about the upcoming event.,General,Help Desk,Medium,Negative
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Medium,Neutral
+What clubs and societies are active this semester?,General,Help Desk,Medium,Neutral
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Low,Neutral
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+My admit card has not been generated even though exams start tomorrow.,Examination,Examination Department,High,Negative
+My complaint submitted 17 days ago has not been acknowledged.,Complaint,Student Affairs,Medium,Negative
+When will the second merit list be published?,Admission,Admission Department,Low,Neutral
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Low,Positive
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+I received my offer letter within 12 days of the interview.,Placement,Placement Cell,Low,Positive
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Medium,Positive
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,High,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,High,Negative
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Medium,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+Is there an EMI option available for fee payment?,Finance,Finance Department,Medium,Neutral
+How do I download my admit card from the portal?,Examination,Examination Department,Medium,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Low,Positive
+The university website has been down for 17 days.,General,Help Desk,Medium,Negative
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+The hostel gate is being closed before the permitted time.,Hostel,Hostel Department,High,Negative
+My complaint submitted 2 days ago has not been acknowledged.,Complaint,Student Affairs,High,Negative
+The fee receipt is not downloadable from the portal.,Finance,Finance Department,Medium,Negative
+My backlog exam date clashes with my regular exam schedule.,Examination,Examination Department,Medium,Negative
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Low,Neutral
+The challan generated has incorrect details.,Finance,Finance Department,High,Negative
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,High,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,High,Negative
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+"My admit card was generated on time, thank you.",Examination,Examination Department,Low,Positive
+My backlog exam date clashes with my regular exam schedule.,Examination,Examination Department,Medium,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Low,Neutral
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+How do I update my contact details on the portal?,General,Help Desk,Low,Neutral
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+Is off-campus placement assistance provided?,Placement,Placement Cell,Medium,Neutral
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Medium,Neutral
+Is there a training program before placements?,Placement,Placement Cell,Low,Neutral
+My scholarship application has been pending for 23 months with no update.,Scholarship,Scholarship Cell,High,Negative
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Medium,Positive
+The notice board has outdated information.,General,Help Desk,High,Negative
+I received my offer letter within 12 days of the interview.,Placement,Placement Cell,Low,Positive
+What is the exam form fill-up last date?,Examination,Examination Department,Medium,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,Medium,Negative
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+I got my corrected mark sheet within 12 days.,Examination,Examination Department,Medium,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+Thank you for processing my scholarship renewal on time.,Scholarship,Scholarship Cell,Medium,Positive
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,High,Negative
+The anti-ragging cell responded to my complaint immediately.,Complaint,Student Affairs,Low,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,Medium,Negative
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+What happens if I miss the fee deadline?,Finance,Finance Department,Low,Neutral
+How do I update my contact details on the portal?,General,Help Desk,Medium,Neutral
+I reported a maintenance issue 7 weeks ago but it is still unresolved.,Hostel,Hostel Department,High,Negative
+I have not received my offer letter even after 25 months of selection.,Placement,Placement Cell,High,Negative
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+"My refund was processed within 18 working days, thank you.",Finance,Finance Department,Medium,Positive
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Low,Neutral
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,Medium,Negative
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Low,Neutral
+My scholarship application has been pending for 30 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+My seat allotment was updated within 14 hours as promised.,Admission,Admission Department,Low,Positive
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+The help desk is not responding to my queries.,General,Help Desk,High,Negative
+My fee refund has not been processed even after 5 months.,Finance,Finance Department,High,Negative
+The finance staff resolved my billing error quickly.,Finance,Finance Department,Medium,Positive
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,Medium,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,High,Negative
+The anti-ragging cell responded to my complaint immediately.,Complaint,Student Affairs,Low,Positive
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,Medium,Negative
+The placement training sessions were very useful.,Placement,Placement Cell,Medium,Positive
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The help desk is not responding to my queries.,General,Help Desk,Medium,Negative
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Low,Neutral
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Low,Neutral
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Medium,Neutral
+How do I access the university Wi-Fi?,General,Help Desk,Medium,Neutral
+I appreciate the extended fee deadline during exam time.,Finance,Finance Department,Low,Positive
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Low,Positive
+The warden resolved my complaint within 11 hours.,Hostel,Hostel Department,Low,Positive
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+Hostel Wi-Fi speed has improved a lot recently.,Hostel,Hostel Department,Medium,Positive
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Medium,Neutral
+The university website has been down for 14 days.,General,Help Desk,Medium,Negative
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,Medium,Negative
+My application was rejected without any reason given.,Admission,Admission Department,Medium,Negative
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Low,Neutral
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+I appreciate the quick action taken on my grievance.,Complaint,Student Affairs,Low,Positive
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+Is air conditioning available in hostel rooms?,Hostel,Hostel Department,Medium,Neutral
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Low,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Medium,Positive
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+Is air conditioning available in hostel rooms?,Hostel,Hostel Department,Low,Neutral
+Revaluation result is pending for over 3 months.,Examination,Examination Department,High,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,Medium,Negative
+The notice board has outdated information.,General,Help Desk,High,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,High,Negative
+My merit list position was not updated even after re-verification.,Admission,Admission Department,Medium,Negative
+Is off-campus placement assistance provided?,Placement,Placement Cell,Low,Neutral
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+My fee refund has not been processed even after 16 months.,Finance,Finance Department,Medium,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Medium,Positive
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+What is the procedure to vacate the hostel at year end?,Hostel,Hostel Department,Medium,Neutral
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+What documents are needed for placement registration?,Placement,Placement Cell,Low,Neutral
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,High,Negative
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Low,Neutral
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,Medium,Negative
+What is the procedure to vacate the hostel at year end?,Hostel,Hostel Department,Medium,Neutral
+"My refund was processed within 16 working days, thank you.",Finance,Finance Department,Low,Positive
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Medium,Neutral
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+The campus facilities have improved a lot this year.,General,Help Desk,Medium,Positive
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+Wi-Fi in the hostel has not been working for 25 days.,Hostel,Hostel Department,High,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+The exam timetable was changed without prior notice.,Examination,Examination Department,High,Negative
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,High,Negative
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+What are the hostel rules for late-night entry?,Hostel,Hostel Department,Medium,Neutral
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+How do I apply for a bonafide certificate?,General,Help Desk,Low,Neutral
+My seat allotment was updated within 6 hours as promised.,Admission,Admission Department,Low,Positive
+Can final year students from all branches register?,Placement,Placement Cell,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Medium,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,Medium,Negative
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,Medium,Negative
+Is laundry service available in the hostel?,Hostel,Hostel Department,Medium,Neutral
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Low,Neutral
+When will the second merit list be published?,Admission,Admission Department,Medium,Neutral
+The university website has been down for 10 days.,General,Help Desk,High,Negative
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Medium,Neutral
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,High,Negative
+The university website has been down for 5 days.,General,Help Desk,Medium,Negative
+What is the process for NRI admission?,Admission,Admission Department,Medium,Neutral
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+The mess food quality has deteriorated significantly.,Hostel,Hostel Department,High,Negative
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+I have not received my offer letter even after 24 months of selection.,Placement,Placement Cell,High,Negative
+Where can I report a case of harassment?,Complaint,Student Affairs,Low,Neutral
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Low,Positive
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+My seat allotment was updated within 6 hours as promised.,Admission,Admission Department,Low,Positive
+How do I update my contact details on the portal?,General,Help Desk,Low,Neutral
+The seat allotment letter has not been issued after 20 days of payment.,Admission,Admission Department,High,Negative
+Can I change my branch after the first year?,Admission,Admission Department,Medium,Neutral
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Medium,Neutral
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Low,Neutral
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,High,Negative
+What clubs and societies are active this semester?,General,Help Desk,Low,Neutral
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Low,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Low,Positive
+My fee refund has not been processed even after 2 months.,Finance,Finance Department,High,Negative
+I received my admission confirmation letter on time.,Admission,Admission Department,Medium,Positive
+I received my offer letter within 19 days of the interview.,Placement,Placement Cell,Medium,Positive
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Medium,Neutral
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Medium,Neutral
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Medium,Positive
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Low,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+My ID card has not been issued even after 25 weeks of joining.,General,Help Desk,Medium,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,Medium,Negative
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,Medium,Negative
+I appreciate the extended fee deadline during exam time.,Finance,Finance Department,Low,Positive
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+My email ID was not created even after 4 weeks of registration.,General,Help Desk,High,Negative
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Low,Neutral
+How do I file a formal complaint against a faculty member?,Complaint,Student Affairs,Medium,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+The help desk is not responding to my queries.,General,Help Desk,Medium,Negative
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,High,Negative
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Medium,Neutral
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,High,Negative
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Medium,Positive
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+My seat allotment was updated within 25 hours as promised.,Admission,Admission Department,Medium,Positive
+What are the accepted modes of fee payment?,Finance,Finance Department,Medium,Neutral
+How do I download my fee receipt from the portal?,Finance,Finance Department,Medium,Neutral
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+Wi-Fi in the hostel has not been working for 17 days.,Hostel,Hostel Department,High,Negative
+The finance department is not responding to my refund request.,Finance,Finance Department,High,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Medium,Neutral
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+My fee refund has not been processed even after 20 months.,Finance,Finance Department,Medium,Negative
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,High,Negative
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,Medium,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+I received my offer letter within 2 days of the interview.,Placement,Placement Cell,Low,Positive
+Is off-campus placement assistance provided?,Placement,Placement Cell,Medium,Neutral
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Medium,Neutral
+"There are insects in the mess food, this is unacceptable.",Hostel,Hostel Department,High,Negative
+I received my offer letter within 18 days of the interview.,Placement,Placement Cell,Low,Positive
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,High,Negative
+How do I register on the placement portal?,Placement,Placement Cell,Low,Neutral
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Medium,Neutral
+What scholarships are available for meritorious students?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+"I received my ID card within 2 days, thank you.",General,Help Desk,Medium,Positive
+Who is the grievance redressal officer?,Complaint,Student Affairs,Low,Neutral
+My resume was not shortlisted without any feedback.,Placement,Placement Cell,High,Negative
+Where can I report a case of harassment?,Complaint,Student Affairs,Low,Neutral
+The university website has been down for 3 days.,General,Help Desk,Medium,Negative
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+My email ID was not created even after 29 weeks of registration.,General,Help Desk,Medium,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,Medium,Negative
+What are the transport routes available for students?,General,Help Desk,Medium,Neutral
+My scholarship was cancelled despite fulfilling all criteria.,Scholarship,Scholarship Cell,High,Negative
+I received the scholarship amount before the semester began.,Scholarship,Scholarship Cell,Medium,Positive
+When does hostel allotment happen for new students?,Hostel,Hostel Department,Low,Neutral
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Medium,Positive
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Low,Neutral
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,Medium,Negative
+Is there a training program before placements?,Placement,Placement Cell,Low,Neutral
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,High,Negative
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+I have not received my offer letter even after 8 months of selection.,Placement,Placement Cell,High,Negative
+The university website has been down for 19 days.,General,Help Desk,High,Negative
+My complaint was taken seriously and resolved within 18 days.,Complaint,Student Affairs,Medium,Positive
+Admission office is not responding to my emails for 27 days.,Admission,Admission Department,High,Negative
+There is a case of ragging in my hostel block.,Complaint,Student Affairs,High,Negative
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Medium,Neutral
+My application was rejected without any reason given.,Admission,Admission Department,Medium,Negative
+What is the procedure for exam form correction?,Examination,Examination Department,Medium,Neutral
+I was declared ineligible for scholarship without any explanation.,Scholarship,Scholarship Cell,High,Negative
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,High,Negative
+What documents are needed for placement registration?,Placement,Placement Cell,Medium,Neutral
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,Medium,Negative
+The common bathroom tiles are broken and pose a safety risk.,Hostel,Hostel Department,High,Negative
+When will the end semester exam schedule be released?,Examination,Examination Department,Low,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+Who is the grievance redressal officer?,Complaint,Student Affairs,Low,Neutral
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,High,Negative
+The mess menu has improved significantly this month.,Hostel,Hostel Department,Low,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The fee portal worked smoothly and I received the receipt instantly.,Finance,Finance Department,Medium,Positive
+What happens if I miss the fee deadline?,Finance,Finance Department,Medium,Neutral
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,High,Negative
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Low,Neutral
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+What is the fee structure for international students?,Finance,Finance Department,Medium,Neutral
+The scholarship portal is not accepting my Aadhaar number.,Scholarship,Scholarship Cell,High,Negative
+My complaint submitted 8 days ago has not been acknowledged.,Complaint,Student Affairs,High,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,Medium,Negative
+How do I get a duplicate ID card?,General,Help Desk,Medium,Neutral
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+What documents are needed for placement registration?,Placement,Placement Cell,Low,Neutral
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,Medium,Negative
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Low,Neutral
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Medium,Neutral
+I have not received my offer letter even after 5 months of selection.,Placement,Placement Cell,High,Negative
+Staff at the help desk were very cooperative.,General,Help Desk,Medium,Positive
+What is the last date for fee payment this semester?,Finance,Finance Department,Medium,Neutral
+My complaint was taken seriously and resolved within 26 days.,Complaint,Student Affairs,Low,Positive
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,Medium,Negative
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+I was not notified about the campus drive that happened yesterday.,Placement,Placement Cell,High,Negative
+When will semester results be declared?,Examination,Examination Department,Low,Neutral
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+There is a spelling mistake in my name on the hall ticket.,Examination,Examination Department,High,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,Medium,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Low,Positive
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+My seat allotment was updated within 21 hours as promised.,Admission,Admission Department,Low,Positive
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,Medium,Negative
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,Medium,Negative
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,High,Negative
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+The merit scholarship process was transparent and fair.,Scholarship,Scholarship Cell,Low,Positive
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,High,Negative
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,Medium,Negative
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,High,Negative
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,Medium,Negative
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+My grade sheet shows incorrect marks for the third semester.,Examination,Examination Department,High,Negative
+The challan generated has incorrect details.,Finance,Finance Department,Medium,Negative
+I received the scholarship amount before the semester began.,Scholarship,Scholarship Cell,Low,Positive
+How can I get a duplicate fee receipt?,Finance,Finance Department,Low,Neutral
+The transport bus schedule has changed without any notice.,General,Help Desk,Medium,Negative
+The university website has been down for 28 days.,General,Help Desk,High,Negative
+What is the last date for admission form submission?,Admission,Admission Department,Medium,Neutral
+The campus facilities have improved a lot this year.,General,Help Desk,Low,Positive
+My backlog exam date clashes with my regular exam schedule.,Examination,Examination Department,High,Negative
+How do I download my fee receipt from the portal?,Finance,Finance Department,Low,Neutral
+The university website has been down for 19 days.,General,Help Desk,High,Negative
+I was denied entry to the hostel without any valid reason.,Hostel,Hostel Department,High,Negative
+The university website has been down for 22 days.,General,Help Desk,Medium,Negative
+When will campus placements begin this year?,Placement,Placement Cell,Medium,Neutral
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+The finance department is not responding to my refund request.,Finance,Finance Department,Medium,Negative
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+My ID card has not been issued even after 20 weeks of joining.,General,Help Desk,Medium,Negative
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Low,Neutral
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Medium,Positive
+The online payment system is very convenient.,Finance,Finance Department,Low,Positive
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,High,Negative
+How can I get a duplicate fee receipt?,Finance,Finance Department,Low,Neutral
+The seat allotment letter has not been issued after 3 days of payment.,Admission,Admission Department,High,Negative
+The placement portal login is not working for me.,Placement,Placement Cell,High,Negative
+I reported a maintenance issue 8 weeks ago but it is still unresolved.,Hostel,Hostel Department,Medium,Negative
+Admission office is not responding to my emails for 12 days.,Admission,Admission Department,High,Negative
+What is the fee structure for the new academic year?,Admission,Admission Department,Medium,Neutral
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Low,Neutral
+Are there any internship opportunities through the placement cell?,Placement,Placement Cell,Medium,Neutral
+What is the process to apply for hostel accommodation?,Hostel,Hostel Department,Medium,Neutral
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Low,Neutral
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,High,Negative
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,Medium,Negative
+The placement cell has not updated the company list for this year.,Placement,Placement Cell,High,Negative
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,High,Negative
+What was the highest package offered last year?,Placement,Placement Cell,Medium,Neutral
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+I was asked to pay the fee again even after showing the receipt.,Finance,Finance Department,High,Negative
+"I received my ID card within 30 days, thank you.",General,Help Desk,Low,Positive
+What is the monthly hostel fee for postgraduate students?,Hostel,Hostel Department,Low,Neutral
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+What documents are required for the admission process?,Admission,Admission Department,Medium,Neutral
+I was charged late fee even though I paid before the deadline.,Finance,Finance Department,High,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,High,Negative
+I received my offer letter within 10 days of the interview.,Placement,Placement Cell,Low,Positive
+I cannot find any information about the upcoming event.,General,Help Desk,High,Negative
+What are the accepted modes of fee payment?,Finance,Finance Department,Medium,Neutral
+"My refund was processed within 20 working days, thank you.",Finance,Finance Department,Medium,Positive
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,High,Negative
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,Medium,Negative
+My application was rejected without any reason given.,Admission,Admission Department,Medium,Negative
+"My scholarship was approved quickly, I am very grateful.",Scholarship,Scholarship Cell,Low,Positive
+"My refund was processed within 19 working days, thank you.",Finance,Finance Department,Low,Positive
+"Result was declared faster than expected, appreciated.",Examination,Examination Department,Low,Positive
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,Medium,Negative
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+What are the accepted modes of fee payment?,Finance,Finance Department,Low,Neutral
+I appreciate the extended fee deadline during exam time.,Finance,Finance Department,Low,Positive
+My scholarship application has been pending for 2 months with no update.,Scholarship,Scholarship Cell,Medium,Negative
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Low,Neutral
+The pre-placement talk was cancelled without informing students.,Placement,Placement Cell,High,Negative
+What is the exam form fill-up last date?,Examination,Examination Department,Low,Neutral
+How do I get a duplicate ID card?,General,Help Desk,Medium,Neutral
+The scholarship amount was not credited to my account this semester.,Scholarship,Scholarship Cell,High,Negative
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,High,Negative
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+My ID card has not been issued even after 4 weeks of joining.,General,Help Desk,High,Negative
+My backlog exam date clashes with my regular exam schedule.,Examination,Examination Department,Medium,Negative
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,High,Negative
+What is the procedure for exam form correction?,Examination,Examination Department,Low,Neutral
+The renewal form for scholarship is not available on the portal.,Scholarship,Scholarship Cell,High,Negative
+The revaluation process was handled efficiently.,Examination,Examination Department,Low,Positive
+Is there a training program before placements?,Placement,Placement Cell,Low,Neutral
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+The university website has been down for 14 days.,General,Help Desk,High,Negative
+The mock interviews organised by placement cell were excellent.,Placement,Placement Cell,Medium,Positive
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Low,Neutral
+How many seats are available in the Computer Science branch?,Admission,Admission Department,Low,Neutral
+What is the process for NRI admission?,Admission,Admission Department,Medium,Neutral
+I missed the registration deadline because no reminder was sent.,Placement,Placement Cell,Medium,Negative
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Medium,Neutral
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,High,Negative
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+What is the renewal process for continuing scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+The student affairs office handled my case professionally.,Complaint,Student Affairs,Low,Positive
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+The orientation program was well-organised.,General,Help Desk,Medium,Positive
+Revaluation result is pending for over 13 months.,Examination,Examination Department,Medium,Negative
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,High,Negative
+How do I apply for a room change?,Hostel,Hostel Department,Medium,Neutral
+The placement training sessions were very useful.,Placement,Placement Cell,Low,Positive
+My roommate is causing disturbance but the warden is not taking action.,Hostel,Hostel Department,High,Negative
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+My email ID was not created even after 9 weeks of registration.,General,Help Desk,High,Negative
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Medium,Neutral
+My application was rejected without any reason given.,Admission,Admission Department,High,Negative
+I submitted all documents but my admission status still shows incomplete.,Admission,Admission Department,High,Negative
+Power cuts in the hostel are happening every day.,Hostel,Hostel Department,Medium,Negative
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Low,Neutral
+When will the end semester exam schedule be released?,Examination,Examination Department,Low,Neutral
+I was not allowed into the exam hall due to a portal error.,Examination,Examination Department,Medium,Negative
+Where is the medical centre located on campus?,General,Help Desk,Low,Neutral
+I was removed from the placement list due to a clerical error.,Placement,Placement Cell,High,Negative
+When will semester results be declared?,Examination,Examination Department,Medium,Neutral
+"I got placed in a good company, thank you to the placement cell.",Placement,Placement Cell,Low,Positive
+My ID card has not been issued even after 14 weeks of joining.,General,Help Desk,High,Negative
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Low,Neutral
+My complaint submitted 2 days ago has not been acknowledged.,Complaint,Student Affairs,Medium,Negative
+Is there a provision for sports quota admission?,Admission,Admission Department,Medium,Neutral
+Is there a student ombudsman at this university?,Complaint,Student Affairs,Low,Neutral
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,Medium,Negative
+How is the scholarship amount disbursed?,Scholarship,Scholarship Cell,Medium,Neutral
+The hostel fee receipt has not been generated after payment.,Hostel,Hostel Department,High,Negative
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+The admission portal keeps showing an error when I try to submit my form.,Admission,Admission Department,Medium,Negative
+The hostel room allotted to me is not clean.,Hostel,Hostel Department,Medium,Negative
+The university website has been down for 6 days.,General,Help Desk,High,Negative
+Admission office is not responding to my emails for 12 days.,Admission,Admission Department,Medium,Negative
+My fee refund has not been processed even after 2 months.,Finance,Finance Department,High,Negative
+What is the last date for admission form submission?,Admission,Admission Department,Low,Neutral
+What was the highest package offered last year?,Placement,Placement Cell,Low,Neutral
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Low,Neutral
+Can I apply for multiple scholarships simultaneously?,Scholarship,Scholarship Cell,Medium,Neutral
+Thank you for ensuring a safe environment in the hostel.,Complaint,Student Affairs,Low,Positive
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+Is there a provision for sports quota admission?,Admission,Admission Department,Low,Neutral
+What is the procedure for exam form correction?,Examination,Examination Department,Low,Neutral
+"Thank you, my admission documents were verified quickly.",Admission,Admission Department,Low,Positive
+I have been charged hostel fee even though I am a day scholar.,Finance,Finance Department,High,Negative
+Discriminatory remarks were made by a professor in class.,Complaint,Student Affairs,High,Negative
+The challan generated has incorrect details.,Finance,Finance Department,Medium,Negative
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+I received my admission confirmation letter on time.,Admission,Admission Department,Low,Positive
+The staff at the admission office was very helpful.,Admission,Admission Department,Medium,Positive
+I was asked to submit documents twice but still no confirmation.,Admission,Admission Department,High,Negative
+I am being harassed by a senior student and no action is being taken.,Complaint,Student Affairs,High,Negative
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+What is the deadline for scholarship form submission?,Scholarship,Scholarship Cell,Medium,Neutral
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,Medium,Negative
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+I got my corrected mark sheet within 23 days.,Examination,Examination Department,Low,Positive
+How many attempts are allowed for a backlog paper?,Examination,Examination Department,Medium,Neutral
+My internal marks have not been updated for 4 subjects.,Examination,Examination Department,High,Negative
+Is air conditioning available in hostel rooms?,Hostel,Hostel Department,Medium,Neutral
+My result shows fail but I had submitted all answers correctly.,Examination,Examination Department,High,Negative
+What documents are required for scholarship application?,Scholarship,Scholarship Cell,Medium,Neutral
+I have been allotted a wrong exam centre far from my address.,Examination,Examination Department,Medium,Negative
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Medium,Neutral
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+The practical exam was scheduled without any prior intimation.,Examination,Examination Department,High,Negative
+The exam schedule was shared well in advance this time.,Examination,Examination Department,Medium,Positive
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,High,Negative
+What is the anti-ragging policy of the university?,Complaint,Student Affairs,Medium,Neutral
+I was wrongly penalised for something I did not do.,Complaint,Student Affairs,High,Negative
+Wrong category was assigned to me during the admission process.,Admission,Admission Department,High,Negative
+The hostel room was clean and well-maintained on arrival.,Hostel,Hostel Department,Low,Positive
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Medium,Neutral
+How do I download my admit card from the portal?,Examination,Examination Department,Medium,Neutral
+Is air conditioning available in hostel rooms?,Hostel,Hostel Department,Medium,Neutral
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+My profile on the placement portal shows incorrect CGPA.,Placement,Placement Cell,High,Negative
+Which companies visited last year?,Placement,Placement Cell,Low,Neutral
+Where is the medical centre located on campus?,General,Help Desk,Medium,Neutral
+What is the last date for fee payment this semester?,Finance,Finance Department,Low,Neutral
+How long does it take to resolve a grievance?,Complaint,Student Affairs,Medium,Neutral
+Can I appear in exam if attendance is below 75 percent?,Examination,Examination Department,Low,Neutral
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+I submitted all documents but my application still shows incomplete.,Scholarship,Scholarship Cell,High,Negative
+How do I apply for a room change?,Hostel,Hostel Department,Low,Neutral
+What items are allowed and not allowed in the hostel?,Hostel,Hostel Department,Low,Neutral
+Wrong fee head was applied to my account causing confusion.,Finance,Finance Department,Medium,Negative
+I missed the counselling round due to no notification from the portal.,Admission,Admission Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+The examination fee was deducted but the form was not submitted.,Examination,Examination Department,Medium,Negative
+I was threatened by a classmate and reported it but nothing happened.,Complaint,Student Affairs,High,Negative
+The seat allotment letter has not been issued after 20 days of payment.,Admission,Admission Department,High,Negative
+The seat allotment letter has not been issued after 24 days of payment.,Admission,Admission Department,High,Negative
+The transport bus schedule has changed without any notice.,General,Help Desk,High,Negative
+The online payment system is very convenient.,Finance,Finance Department,Medium,Positive
+My transaction failed but the amount was debited from my account.,Finance,Finance Department,Medium,Negative
+Is direct admission available for lateral entry students?,Admission,Admission Department,Medium,Neutral
+Can I escalate my complaint if it is not resolved?,Complaint,Student Affairs,Medium,Neutral
+The anti-ragging committee is not accessible to students.,Complaint,Student Affairs,High,Negative
+What is the income limit for need-based scholarship?,Scholarship,Scholarship Cell,Medium,Neutral
+I have not received my offer letter even after 7 months of selection.,Placement,Placement Cell,High,Negative
+Is there a scholarship for differently-abled students?,Scholarship,Scholarship Cell,Medium,Neutral
+Is there a training program before placements?,Placement,Placement Cell,Low,Neutral
+Who is the grievance redressal officer?,Complaint,Student Affairs,Medium,Neutral
+What is the minimum CGPA required for placement registration?,Placement,Placement Cell,Medium,Neutral
+What is the academic calendar for this year?,General,Help Desk,Medium,Neutral
+What is the procedure for the internal complaints committee?,Complaint,Student Affairs,Medium,Neutral
+Is there a government scholarship tie-up with this university?,Scholarship,Scholarship Cell,Low,Neutral
+I have not received any communication regarding my scholarship status.,Scholarship,Scholarship Cell,High,Negative
+The placement cell kept us informed about every drive.,Placement,Placement Cell,Low,Positive
+How do I apply for a bonafide certificate?,General,Help Desk,Medium,Neutral
+My grievance has been ignored by the department for 2 weeks.,Complaint,Student Affairs,High,Negative
+I could not find my roll number on the examination portal.,Examination,Examination Department,Medium,Negative
+The faculty is not conducting classes regularly.,Complaint,Student Affairs,High,Negative
+What is the passing criteria for practical exams?,Examination,Examination Department,Low,Neutral
+How do I register on the placement portal?,Placement,Placement Cell,Medium,Neutral
+What is the passing criteria for practical exams?,Examination,Examination Department,Low,Neutral
+"My admit card was generated on time, thank you.",Examination,Examination Department,Medium,Positive
+The admission process was smooth and well-organised this year.,Admission,Admission Department,Low,Positive
+Revaluation result is pending for over 16 months.,Examination,Examination Department,High,Negative
+Staff at the help desk were very cooperative.,General,Help Desk,Low,Positive
+My email ID was not created even after 7 weeks of registration.,General,Help Desk,High,Negative
+Are parents allowed to visit the hostel?,Hostel,Hostel Department,Medium,Neutral
+My scholarship amount was deducted from my fee but still shows balance.,Finance,Finance Department,Medium,Negative
