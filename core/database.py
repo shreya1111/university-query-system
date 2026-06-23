@@ -3,7 +3,7 @@ import os
 import re
 from html import unescape
 from html.parser import HTMLParser
-from typing import Optional
+from typing import Optional, Union, List
 from core.config import DB_PATH, SCHEMA_PATH
 
 
@@ -55,6 +55,10 @@ def initialize_database() -> None:
             if col not in existing:
                 conn.execute(f"ALTER TABLE tickets ADD COLUMN {col} {definition}")
         migrate_ticket_queries_to_plain_text(conn)
+        # Phase 2C: add read column to notifications if absent
+        notification_cols = {r[1] for r in conn.execute("PRAGMA table_info(notifications)").fetchall()}
+        if "read" not in notification_cols:
+            conn.execute("ALTER TABLE notifications ADD COLUMN read INTEGER DEFAULT 0")
 
 
 def migrate_ticket_queries_to_plain_text(conn: sqlite3.Connection) -> None:
@@ -120,6 +124,76 @@ def get_all_tickets(
         conditions.append("priority = ?"); params.append(priority)
     if status:
         conditions.append("status = ?"); params.append(status)
+    where = ("WHERE " + " AND ".join(conditions)) if conditions else ""
+    sql = f"SELECT * FROM tickets {where} ORDER BY created_at DESC"
+    with _connect() as conn:
+        return [dict(r) for r in conn.execute(sql, params).fetchall()]
+
+
+def get_tickets_filtered(
+    department: Optional[Union[str, List[str]]] = None,
+    priority: Optional[Union[str, List[str]]] = None,
+    status: Optional[Union[str, List[str]]] = None,
+    sentiment: Optional[Union[str, List[str]]] = None,
+    intent: Optional[Union[str, List[str]]] = None,
+    search_ticket_id: Optional[str] = None,
+    search_student_name: Optional[str] = None,
+) -> list[dict]:
+    """Get tickets with extended filtering and search capabilities."""
+    conditions, params = [], []
+    if department:
+        if isinstance(department, list):
+            if department:  # only if list is not empty
+                placeholders = ", ".join(["?"] * len(department))
+                conditions.append(f"department IN ({placeholders})")
+                params.extend(department)
+        else:  # string
+            conditions.append("department = ?")
+            params.append(department)
+    if priority:
+        if isinstance(priority, list):
+            if priority:
+                placeholders = ", ".join(["?"] * len(priority))
+                conditions.append(f"priority IN ({placeholders})")
+                params.extend(priority)
+        else:
+            conditions.append("priority = ?")
+            params.append(priority)
+    if status:
+        if isinstance(status, list):
+            if status:
+                placeholders = ", ".join(["?"] * len(status))
+                conditions.append(f"status IN ({placeholders})")
+                params.extend(status)
+        else:
+            conditions.append("status = ?")
+            params.append(status)
+    if sentiment:
+        if isinstance(sentiment, list):
+            if sentiment:
+                placeholders = ", ".join(["?"] * len(sentiment))
+                conditions.append(f"sentiment IN ({placeholders})")
+                params.extend(sentiment)
+        else:
+            conditions.append("sentiment = ?")
+            params.append(sentiment)
+    if intent:
+        if isinstance(intent, list):
+            if intent:
+                placeholders = ", ".join(["?"] * len(intent))
+                conditions.append(f"intent IN ({placeholders})")
+                params.extend(intent)
+        else:
+            conditions.append("intent = ?")
+            params.append(intent)
+    if search_ticket_id:
+        # Cast ticket_id to TEXT and use LIKE for partial match
+        conditions.append("CAST(ticket_id AS TEXT) LIKE ?")
+        params.append(f"%{search_ticket_id}%")
+    if search_student_name:
+        # Case-insensitive partial match on student_name
+        conditions.append("student_name LIKE ?")
+        params.append(f"%{search_student_name}%")
     where = ("WHERE " + " AND ".join(conditions)) if conditions else ""
     sql = f"SELECT * FROM tickets {where} ORDER BY created_at DESC"
     with _connect() as conn:

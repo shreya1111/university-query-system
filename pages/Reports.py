@@ -7,165 +7,214 @@ from components.sidebar import render_sidebar
 from components.cards import page_header
 from styles.custom_css import inject_css
 from styles.theme import COLORS
-from features.analytics.reports.csv_export import (
-    export_all_tickets, export_department_report,
-    export_sentiment_report, export_analytics_csv,
+from features.reports.service import (
+    generate_csv_report,
+    generate_excel_report,
+    generate_pdf_report,
 )
-from features.analytics.reports.pdf_report import generate_summary_report, save_report
-from features.analytics.ticket_analytics import get_all_tickets_raw
-from features.analytics.department_analytics import department_performance
-from features.analytics.sentiment_analytics import sentiment_distribution, intent_distribution
-from features.analytics.resolution_analytics import resolution_summary
+from typing import Optional, Union, List
 
 st.set_page_config(page_title="Reports", page_icon="📋", layout="wide")
 inject_css()
 initialize_database()
 render_sidebar()
-page_header("📋 Reports", "Generate and download analytical reports in CSV and PDF.")
+page_header("📋 Reports", "Generate and download reports in CSV, Excel, and PDF formats.")
 
+# Pre-assign token to avoid nested-quote breakage
+_c_text  = COLORS["text"]
+_c_muted = COLORS["muted"]
 
-def _card(icon: str, title: str, desc: str, color: str) -> None:
-    st.markdown(f"""
-    <div style="background:linear-gradient(145deg,{COLORS['card']},{COLORS['card2']});
-        border:1px solid {COLORS['border']};border-left:3px solid {color};
-        border-radius:16px;padding:1rem 1.2rem;margin-bottom:.4rem;">
-        <div style="display:flex;gap:.7rem;align-items:center;">
-            <div style="background:{color}22;border:1px solid {color}44;
-                border-radius:10px;padding:.5rem;font-size:1.25rem;">{icon}</div>
-            <div>
-                <div style="color:{COLORS['text']};font-weight:700;font-size:.9rem;">{title}</div>
-                <div style="color:{COLORS['muted']};font-size:.76rem;">{desc}</div>
-            </div>
-        </div>
-    </div>""", unsafe_allow_html=True)
+# --- Filter Section ---
+st.markdown("<div style='height:.5rem;'></div>", unsafe_allow_html=True)
+with st.container():
+    st.markdown(
+        f"<div style='color:{_c_text};font-size:.9rem;font-weight:700;"
+        f"margin-bottom:.4rem;'>🔍 Filters</div>",
+        unsafe_allow_html=True,
+    )
+    f1, f2, f3, f4, f5 = st.columns(5)
 
+    # Initialize filter state in session state if not present
+    if "report_dept_filter" not in st.session_state:
+        st.session_state.report_dept_filter = []
+    if "report_pri_filter" not in st.session_state:
+        st.session_state.report_pri_filter = []
+    if "report_status_filter" not in st.session_state:
+        st.session_state.report_status_filter = []
+    if "report_sentiment_filter" not in st.session_state:
+        st.session_state.report_sentiment_filter = []
+    if "report_intent_filter" not in st.session_state:
+        st.session_state.report_intent_filter = []
 
-today = datetime.now().strftime("%Y%m%d")
+    # We need to get the filter options from the database (all tickets) to populate the multiselect
+    # We can use the existing get_all_tickets function from core.database for this purpose
+    from core.database import get_all_tickets
+    all_tickets = get_all_tickets()  # no filters
+    dept_options = sorted({t.get("department", "Unknown") for t in all_tickets if t.get("department")})
+    pri_options = sorted({t.get("priority", "Unknown") for t in all_tickets if t.get("priority")})
+    status_options = sorted({t.get("status", "Unknown") for t in all_tickets if t.get("status")})
+    sentiment_options = sorted({t.get("sentiment", "Unknown") for t in all_tickets if t.get("sentiment")})
+    intent_options = sorted({t.get("intent", "Unknown") for t in all_tickets if t.get("intent")})
 
-# ── CSV Exports ───────────────────────────────────────────────────────────────
-st.markdown(f"<div style='color:{COLORS['text']};font-size:.95rem;font-weight:700;"
-            f"margin-bottom:.8rem;'>📥 CSV Exports</div>", unsafe_allow_html=True)
+    with f1:
+        selected_depts = st.multiselect(
+            "Department",
+            options=dept_options,
+            default=st.session_state.report_dept_filter,
+            key="report_dept_multiselect",
+        )
+        st.session_state.report_dept_filter = selected_depts
+    with f2:
+        selected_pris = st.multiselect(
+            "Priority",
+            options=pri_options,
+            default=st.session_state.report_pri_filter,
+            key="report_pri_multiselect",
+        )
+        st.session_state.report_pri_filter = selected_pris
+    with f3:
+        selected_statuses = st.multiselect(
+            "Status",
+            options=status_options,
+            default=st.session_state.report_status_filter,
+            key="report_status_multiselect",
+        )
+        st.session_state.report_status_filter = selected_statuses
+    with f4:
+        selected_sentiments = st.multiselect(
+            "Sentiment",
+            options=sentiment_options,
+            default=st.session_state.report_sentiment_filter,
+            key="report_sentiment_multiselect",
+        )
+        st.session_state.report_sentiment_filter = selected_sentiments
+    with f5:
+        selected_intents = st.multiselect(
+            "Intent",
+            options=intent_options,
+            default=st.session_state.report_intent_filter,
+            key="report_intent_multiselect",
+        )
+        st.session_state.report_intent_filter = selected_intents
 
-c1, c2, c3, c4 = st.columns(4)
+# Fetch filtered tickets based on selected filters
+dept_filter = st.session_state.report_dept_filter if st.session_state.report_dept_filter else None
+pri_filter = st.session_state.report_pri_filter if st.session_state.report_pri_filter else None
+status_filter = st.session_state.report_status_filter if st.session_state.report_status_filter else None
+sentiment_filter = st.session_state.report_sentiment_filter if st.session_state.report_sentiment_filter else None
+intent_filter = st.session_state.report_intent_filter if st.session_state.report_intent_filter else None
 
-with c1:
-    _card("🎫", "All Tickets", "Full ticket history with AI fields", COLORS["primary"])
-    st.download_button("⬇️ Download", export_all_tickets(),
-                       f"tickets_{today}.csv", "text/csv",
-                       use_container_width=True, key="dl_all")
+# We don't have a direct function to get the count without fetching the data, but we can fetch the data and then get the length.
+# However, for large datasets, this might be inefficient. But for the purpose of this task, we'll fetch the data to get the count.
+# We'll use the repository function to get the tickets for the filters (without search) to display the count.
+from features.reports.repository import get_tickets_for_reports
+filtered_tickets = get_tickets_for_reports(
+    department=dept_filter,
+    priority=pri_filter,
+    status=status_filter,
+    sentiment=sentiment_filter,
+    intent=intent_filter,
+)
+ticket_count = len(filtered_tickets)
 
-with c2:
-    _card("🏢", "Department Report", "Performance per department", COLORS["cyan"])
-    st.download_button("⬇️ Download", export_department_report(),
-                       f"departments_{today}.csv", "text/csv",
-                       use_container_width=True, key="dl_dept")
+st.markdown(f"<p style='color:{_c_muted};font-size:.85rem;margin-top:.5rem;'>"
+            f"Found <b style='color:{_c_text};'>{ticket_count}</b> ticket{'s' if ticket_count != 1 else ''} matching the filters.</p>",
+            unsafe_allow_html=True)
 
-with c3:
-    _card("😊", "Sentiment Report", "Sentiment distribution data", COLORS["green"])
-    st.download_button("⬇️ Download", export_sentiment_report(),
-                       f"sentiment_{today}.csv", "text/csv",
-                       use_container_width=True, key="dl_sent")
-
-with c4:
-    _card("📊", "Analytics Snapshot", "Combined intent, sentiment & dept", COLORS["orange"])
-    st.download_button("⬇️ Download", export_analytics_csv(),
-                       f"analytics_{today}.csv", "text/csv",
-                       use_container_width=True, key="dl_analytics")
-
+# --- Download Buttons ---
 st.markdown("<hr>", unsafe_allow_html=True)
+st.markdown(f"<div style='color:{_c_text};font-size:.95rem;font-weight:700;"
+            f"margin-bottom:.8rem;'>📥 Download Reports</div>", unsafe_allow_html=True)
 
-# ── PDF / Generated Reports ───────────────────────────────────────────────────
-st.markdown(f"<div style='color:{COLORS['text']};font-size:.95rem;font-weight:700;"
-            f"margin-bottom:.8rem;'>📄 Generated Reports</div>", unsafe_allow_html=True)
+dl1, dl2, dl3 = st.columns(3)
 
-p1, p2, p3 = st.columns(3)
+with dl1:
+    if st.button("Generate CSV", use_container_width=True, key="btn_csv"):
+        with st.spinner("Generating CSV report..."):
+            csv_bytes = generate_csv_report(
+                department=dept_filter,
+                priority=pri_filter,
+                status=status_filter,
+                sentiment=sentiment_filter,
+                intent=intent_filter,
+            )
+        st.session_state.csv_report = csv_bytes
+        st.success("CSV report generated!")
+    if "csv_report" in st.session_state:
+        st.download_button(
+            label="⬇️ Download CSV",
+            data=st.session_state.csv_report,
+            file_name=f"tickets_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+            mime="text/csv",
+            use_container_width=True,
+            key="dl_csv"
+        )
 
-with p1:
-    _card("📊", "Summary Report", "Ticket stats + department breakdown", COLORS["accent"])
-    if st.button("🔄 Generate", use_container_width=True, key="gen_summary"):
-        with st.spinner("Generating summary report…"):
-            content = generate_summary_report()
-            path    = save_report(content, "summary_report")
-        ext  = "pdf" if content[:4] == b"%PDF" else "txt"
-        mime = "application/pdf" if ext == "pdf" else "text/plain"
-        st.success(f"Saved: `{path}`")
-        st.download_button(f"⬇️ Download {ext.upper()}", content,
-                           f"summary_{today}.{ext}", mime,
-                           use_container_width=True, key="dl_summary")
+with dl2:
+    if st.button("Generate Excel", use_container_width=True, key="btn_excel"):
+        with st.spinner("Generating Excel report..."):
+            excel_bytes = generate_excel_report(
+                department=dept_filter,
+                priority=pri_filter,
+                status=status_filter,
+                sentiment=sentiment_filter,
+                intent=intent_filter,
+            )
+        st.session_state.excel_report = excel_bytes
+        st.success("Excel report generated!")
+    if "excel_report" in st.session_state:
+        st.download_button(
+            label="⬇️ Download Excel",
+            data=st.session_state.excel_report,
+            file_name=f"tickets_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            use_container_width=True,
+            key="dl_excel"
+        )
 
-with p2:
-    _card("🏢", "Department Report", "Full dept performance breakdown", COLORS["blue"])
-    if st.button("🔄 Generate", use_container_width=True, key="gen_dept"):
-        with st.spinner("Generating department report…"):
-            dp   = department_performance()
-            rows = "\n".join(
-                f"  {d['department']}: total={d['total']} resolved={d['resolved']} pending={d['pending']}"
-                for d in dp
-            ) if dp else "  No data."
-            content = (
-                f"DEPARTMENT PERFORMANCE REPORT\n"
-                f"Generated: {datetime.now().strftime('%d %b %Y %H:%M')}\n"
-                f"{'='*45}\n{rows}"
-            ).encode("utf-8")
-            path = save_report(content, "dept_report")
-        st.success(f"Saved: `{path}`")
-        st.download_button("⬇️ Download TXT", content,
-                           f"dept_report_{today}.txt", "text/plain",
-                           use_container_width=True, key="dl_dept_pdf")
+with dl3:
+    if st.button("Generate PDF", use_container_width=True, key="btn_pdf"):
+        with st.spinner("Generating PDF report..."):
+            pdf_bytes = generate_pdf_report(
+                department=dept_filter,
+                priority=pri_filter,
+                status=status_filter,
+                sentiment=sentiment_filter,
+                intent=intent_filter,
+            )
+        st.session_state.pdf_report = pdf_bytes
+        st.success("PDF report generated!")
+    if "pdf_report" in st.session_state:
+        st.download_button(
+            label="⬇️ Download PDF",
+            data=st.session_state.pdf_report,
+            file_name=f"tickets_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf",
+            mime="application/pdf",
+            use_container_width=True,
+            key="dl_pdf"
+        )
 
-with p3:
-    _card("📅", "Monthly Analytics", "Sentiment + intent monthly summary", COLORS["green"])
-    if st.button("🔄 Generate", use_container_width=True, key="gen_monthly"):
-        with st.spinner("Generating monthly report…"):
-            res  = resolution_summary()
-            sent = sentiment_distribution()
-            ints = intent_distribution()
-            lines = [
-                "MONTHLY ANALYTICS REPORT",
-                f"Generated: {datetime.now().strftime('%d %b %Y %H:%M')}",
-                "=" * 45,
-                f"Total Tickets   : {res['total']}",
-                f"Resolved        : {res['resolved']}",
-                f"Resolution Rate : {res['resolution_rate']}%",
-                f"Avg Days Open   : {res['avg_days_open']}",
-                "",
-                "SENTIMENT BREAKDOWN",
-            ] + [f"  {d['sentiment']}: {d['count']}" for d in sent] + [
-                "",
-                "TOP INTENTS",
-            ] + [f"  {d['intent']}: {d['count']}" for d in ints]
-            content = "\n".join(lines).encode("utf-8")
-            path    = save_report(content, "monthly_report")
-        st.success(f"Saved: `{path}`")
-        st.download_button("⬇️ Download TXT", content,
-                           f"monthly_{today}.txt", "text/plain",
-                           use_container_width=True, key="dl_monthly")
-
-st.markdown("<hr>", unsafe_allow_html=True)
-
-# ── Data Preview ──────────────────────────────────────────────────────────────
-with st.expander("👁️ Preview: All Tickets Data"):
-    tickets = get_all_tickets_raw()
-    if tickets:
-        df = pd.DataFrame(tickets)
+# --- Optional: Data Preview ---
+with st.expander("👁️ Preview: Filtered Tickets Data"):
+    if filtered_tickets:
+        df = pd.DataFrame(filtered_tickets)
         show = [c for c in ["ticket_id","student_name","department","priority",
                              "status","intent","sentiment","created_at"] if c in df.columns]
         df = df[show]
         df.columns = [c.replace("_"," ").title() for c in show]
         st.dataframe(df, use_container_width=True, hide_index=True)
     else:
-        st.info("No tickets yet.")
+        st.info("No tickets match the current filters.")
 
-st.markdown(f"""
-<div style="background:{COLORS['card2']};border:1px solid {COLORS['border']};
+st.markdown(f"""<div style="background:{COLORS['card2']};border:1px solid {COLORS['border']};
     border-radius:14px;padding:1rem 1.2rem;margin-top:.8rem;">
     <div style="color:{COLORS['text']};font-weight:700;font-size:.85rem;margin-bottom:.4rem;">
         💡 Report Tips</div>
     <ul style="color:{COLORS['muted']};font-size:.8rem;line-height:1.9;
         padding-left:1.1rem;margin:0;">
-        <li>CSV exports include all AI-enriched fields (intent, sentiment, summary, auto_reply)</li>
-        <li>PDF reports require <code>pip install reportlab</code> — plain text fallback otherwise</li>
-        <li>All generated reports are saved to the <code>reports/</code> folder automatically</li>
-        <li>Use the Analytics page for interactive charts before exporting</li>
+        <li>Select filters to include only specific tickets in the report.</li>
+        <li>If no filters are selected, the report will include all tickets.</li>
+        <li>Click the 'Generate' button for each format before downloading.</li>
+        <li>Reports are generated dynamically and not saved to the server.</li>
     </ul>
 </div>""", unsafe_allow_html=True)
