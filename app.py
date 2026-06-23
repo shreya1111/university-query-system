@@ -103,10 +103,13 @@ for row in rows:
     cols = st.columns(3)
     for col, (page, icon, label, desc, color) in zip(cols, row):
         with col:
+            # The card IS the visual header; the single button below is the
+            # call-to-action. One consistent element — no separate decorative
+            # div plus a redundant "Open X" button.
             st.markdown(dedent(f"""
             <div style="background:linear-gradient(145deg,{_c_card},{_c_card2});
                 border:1px solid {_c_border};border-radius:18px;padding:1.3rem;
-                text-align:center;margin-bottom:.1rem;">
+                text-align:center;margin-bottom:.6rem;">
                 <div style="background:{color}22;border:1px solid {color}44;border-radius:12px;
                     width:46px;height:46px;display:flex;align-items:center;justify-content:center;
                     font-size:1.4rem;margin:0 auto .7rem;">{icon}</div>
@@ -114,6 +117,6 @@ for row in rows:
                     margin-bottom:.2rem;">{label}</div>
                 <div style="color:{_c_muted};font-size:.75rem;">{desc}</div>
             </div>"""), unsafe_allow_html=True)
-            if st.button(f"Open {label}", key=f"nav_{label}", use_container_width=True):
+            if st.button(label, key=f"nav_{label}", use_container_width=True):
                 st.switch_page(page)
     st.markdown("<div style='height:.5rem;'></div>", unsafe_allow_html=True)

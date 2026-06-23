@@ -1,8 +1,9 @@
 import streamlit as st
 from textwrap import dedent
-from features.auth.service import login_user, logout_user, init_auth_state
-from components.sidebar import render_sidebar
+
+from features.auth.service import login_user, init_auth_state
 from styles.theme import COLORS
+from styles.custom_css import inject_css
 
 # Initialize authentication state
 init_auth_state()
@@ -11,57 +12,63 @@ init_auth_state()
 if st.session_state.get("logged_in", False):
     st.switch_page("app.py")
 
-# Page config (optional, but we can set title)
-st.set_page_config(page_title="Login - UniQuery", page_icon="🔐", layout="centered")
-
-# Custom CSS for login page (optional, but we can reuse existing styles)
-# We'll just use the existing theme colors
-
-# Center the login form
-st.markdown(
-    f"<div style='text-align: center; padding: 2rem 0;'>"
-    f"<h1 style='color: {COLORS['text']};'>UniQuery Login</h1>"
-    f"<p style='color: {COLORS['muted']};'>Sign in to your account</p>"
-    f"</div>",
-    unsafe_allow_html=True,
+st.set_page_config(
+    page_title="Login - UniQuery",
+    page_icon="🔐",
+    layout="centered",
 )
 
-# Create a container for the form with a max-width
-with st.container():
-    st.markdown(
-        f"<div style='max-width: 400px; margin: 0 auto; padding: 2rem; "
-        f"background: {COLORS['card']}; border-radius: 18px; "
-        f"border: 1px solid {COLORS['border_solid']};'>",
-        unsafe_allow_html=True,
+# Apply the global dark theme + hide Streamlit's default chrome/sidebar nav
+inject_css()
+# Minimal sidebar (no nav links for guests beyond what render_sidebar shows)
+st.markdown("<style>[data-testid='stSidebar']{display:none !important;}</style>",
+            unsafe_allow_html=True)
+
+# ── Header ────────────────────────────────────────────────────────────────
+st.markdown(dedent(f"""
+<div style="text-align:center;padding:1.2rem 0 1.6rem;">
+    <div style="display:inline-flex;align-items:center;justify-content:center;
+        width:64px;height:64px;border-radius:18px;font-size:2rem;margin-bottom:.7rem;
+        background:linear-gradient(135deg,{COLORS['primary']},{COLORS['accent']});">
+        🎓
+    </div>
+    <h1 style="color:{COLORS['text']};font-size:1.7rem;font-weight:800;margin:0;">
+        Welcome to UniQuery
+    </h1>
+    <p style="color:{COLORS['muted']};font-size:.92rem;margin:.3rem 0 0;">
+        Sign in to your account
+    </p>
+</div>
+"""), unsafe_allow_html=True)
+
+# ── Login form ─────────────────────────────────────────────────────────────
+with st.form("login_form", clear_on_submit=False):
+    username = st.text_input("Username", placeholder="Enter your username")
+    password = st.text_input(
+        "Password", type="password", placeholder="Enter your password"
+    )
+    submit_button = st.form_submit_button(
+        "Sign In", use_container_width=True, type="primary"
     )
 
-    with st.form("login_form"):
-        username = st.text_input("Username", placeholder="Enter your username")
-        password = st.text_input(
-            "Password", type="password", placeholder="Enter your password"
-        )
-        submit_button = st.form_submit_button("Login", use_container_width=True)
-
-        if submit_button:
-            if not username or not password:
-                st.error("Please enter both username and password")
+    if submit_button:
+        if not username or not password:
+            st.error("Please enter both username and password")
+        else:
+            success, message = login_user(username, password)
+            if success:
+                st.success(message)
+                st.switch_page("app.py")
             else:
-                success, message = login_user(username, password)
-                if success:
-                    st.success(message)
-                    # Redirect to home after successful login
-                    st.switch_page("app.py")
-                else:
-                    st.error(message)
+                st.error(message)
 
-    st.markdown("</div>", unsafe_allow_html=True)
-
-# Add a link to register page
-st.markdown(
-    f"<div style='text-align: center; margin-top: 1.5rem;'>"
-    f"<p style='color: {COLORS['muted']};'>"
-    f"Don't have an account? <a href='/Register' style='color: {COLORS['primary']}; text-decoration: none;'>Register here</a>"
-    f"</p>"
-    f"</div>",
-    unsafe_allow_html=True,
-)
+# ── Secondary actions: forgot password + register ────────────────────────
+# NOTE: <a href="/Page"> does NOT work in Streamlit; use buttons instead.
+col_forgot, col_register = st.columns([1, 1])
+with col_forgot:
+    if st.button("Forgot password?", key="forgot_pwd",
+                 use_container_width=True, help="Reset your password via email"):
+        st.switch_page("pages/Forgot_Password.py")
+with col_register:
+    if st.button("Create account", key="to_register", use_container_width=True):
+        st.switch_page("pages/Register.py")

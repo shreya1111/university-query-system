@@ -3,6 +3,7 @@ from html import escape
 from textwrap import dedent
 from styles.theme import COLORS
 from features.auth.session import init_auth_state, get_session
+from features.auth.service import logout_user
 
 
 def _section_label(text: str) -> None:
@@ -97,6 +98,13 @@ def render_sidebar() -> None:
                             f'padding:.25rem .6rem;opacity:.5;">{safe_label}</div>',
                             unsafe_allow_html=True,
                         )
+
+            # ── Logout ────────────────────────────────────────────────────────
+            _section_label("Account")
+            if st.button("🚪  Logout", key="sidebar_logout",
+                         use_container_width=True):
+                logout_user()
+                st.switch_page("pages/Login.py")
 
             # ── Footer profile ────────────────────────────────────────────────
             # Show user info in the footer

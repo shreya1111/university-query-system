@@ -16,3 +16,7 @@ sentence-transformers>=3.0.0
 pypdf>=4.0.0
 python-dotenv>=1.0.0
 google-genai>=1.0.0
+
+# Reports — Excel & PDF export
+openpyxl>=3.1.0
+reportlab>=5.0.0

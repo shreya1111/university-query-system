@@ -45,8 +45,10 @@ data/chroma_db/
 
 # Temporary files
 *.tmp
+*.tmp.*
 *.bak
 *.swp
+recovered_file.txt
 
 # OS files
 .DS_Store

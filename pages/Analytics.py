@@ -16,6 +16,13 @@ from components.metric_card import metric_card
 from styles.custom_css import inject_css
 from styles.theme import COLORS, CHART_COLORS, PRIORITY_COLORS, STATUS_COLORS, SENTIMENT_COLORS
 
+
+def _rgba(hex_color: str, alpha: float) -> str:
+    """Convert '#RRGGBB' hex to 'rgba(r,g,b,a)' for Plotly compatibility."""
+    h = hex_color.lstrip("#")
+    r, g, b = int(h[:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+    return f"rgba({r},{g},{b},{alpha})"
+
 st.set_page_config(page_title="Analytics", page_icon="📈", layout="wide")
 inject_css()
 initialize_database()
@@ -509,7 +516,7 @@ with tab2:
             line=dict(color=COLORS["primary"], width=2.5, shape="spline"),
             marker=dict(size=6, color=COLORS["accent"]),
             fill="tozeroy",
-            fillcolor=COLORS["primary"] + "22",
+            fillcolor=_rgba(COLORS["primary"], 0.13),
             name="Tickets",
         ))
         st.plotly_chart(_dl(fig5, 340), use_container_width=True)
@@ -527,7 +534,7 @@ with tab2:
             line=dict(color=COLORS["cyan"], width=2.5, shape="spline"),
             marker=dict(size=6, color=COLORS["accent"]),
             fill="tozeroy",
-            fillcolor=COLORS["cyan"] + "22",
+            fillcolor=_rgba(COLORS["cyan"], 0.13),
             name="Tickets per Month",
         ))
         st.plotly_chart(_dl(fig6, 340), use_container_width=True)
@@ -540,7 +547,7 @@ with tab2:
         df_r = pd.DataFrame(resolution_trends)
         fig7 = go.Figure()
         fig7.add_trace(go.Bar(x=df_r["day"], y=df_r["total"],
-                              name="Total", marker_color=COLORS["blue"] + "99"))
+                              name="Total", marker_color=_rgba(COLORS["blue"], 0.6)))
         fig7.add_trace(go.Bar(x=df_r["day"], y=df_r["resolved"],
                               name="Resolved", marker_color=COLORS["green"]))
         fig7.update_layout(barmode="overlay")
@@ -725,7 +732,7 @@ with tab5:
                 line=dict(color=COLORS["green"], width=2.5, shape="spline"),
                 marker=dict(size=8, color=COLORS["cyan"]),
                 fill="tozeroy",
-                fillcolor=COLORS["green"] + "22",
+                fillcolor=_rgba(COLORS["green"], 0.13),
                 name="Avg Score",
             ))
             fig13.add_hline(y=3, line_dash="dash",

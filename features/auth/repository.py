@@ -91,3 +91,20 @@ def get_user_by_id(user_id: int) -> Optional[Dict]:
         cursor = conn.execute(sql, (user_id,))
         row = cursor.fetchone()
         return dict(row) if row else None
+
+
+def update_user_password(email: str, password_hash: str) -> bool:
+    """
+    Update a user's password hash, looked up by email.
+
+    Args:
+        email: The user's email address.
+        password_hash: The new hashed password.
+
+    Returns:
+        True if a row was updated, False otherwise.
+    """
+    sql = "UPDATE users SET password_hash = ? WHERE email = ?"
+    with _connect() as conn:
+        cursor = conn.execute(sql, (password_hash, email))
+        return cursor.rowcount > 0
