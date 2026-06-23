@@ -20,3 +20,14 @@ CREATE TABLE IF NOT EXISTS notifications (
 
 CREATE INDEX IF NOT EXISTS idx_tickets_status     ON tickets(status);
 CREATE INDEX IF NOT EXISTS idx_tickets_department ON tickets(department);
+
+CREATE TABLE IF NOT EXISTS users (
+    user_id   INTEGER PRIMARY KEY AUTOINCREMENT,
+    username  TEXT NOT NULL UNIQUE,
+    email     TEXT NOT NULL UNIQUE,
+    password_hash TEXT NOT NULL,
+    role      TEXT NOT NULL CHECK(role IN ('Student', 'Faculty', 'Admin')),
+    department TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+

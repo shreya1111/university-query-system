@@ -8,8 +8,10 @@ from components.cards import page_header
 from styles.custom_css import inject_css
 from styles.theme import COLORS, PRIORITY_COLORS, SENTIMENT_COLORS
 from features.ticket_management.service import TicketService
+from features.auth.auth_utils import require_login
 
 st.set_page_config(page_title="Raise Ticket", page_icon=APP_ICON, layout="wide")
+require_login()
 inject_css()
 initialize_database()
 render_sidebar()
@@ -30,10 +32,10 @@ _c_green  = COLORS["green"]
 _, form_col, _ = st.columns([1, 3, 1])
 with form_col:
     st.markdown(f"""
-<div style="background:linear-gradient(145deg,{_c_card},{_c_card2});
-    border:1px solid {_c_border};border-radius:20px;padding:2rem;
-    margin-bottom:1rem;">
-""", unsafe_allow_html=True)
+    <div style="background:linear-gradient(145deg,{_c_card},{_c_card2});
+        border:1px solid {_c_border};border-radius:20px;padding:2rem;
+        margin-bottom:1rem;">
+    """, unsafe_allow_html=True)
 
     with st.form("raise_form", clear_on_submit=True):
         student_name = st.text_input("👤 Student Name *",
@@ -79,49 +81,49 @@ with form_col:
             ]:
                 with col:
                     st.markdown(f"""
-<div style="background:{_c_card2};border:1px solid {_c_border};
-    border-left:3px solid {color};border-radius:14px;padding:1rem;">
-    <div style="color:{_c_muted};font-size:.68rem;font-weight:700;
-        text-transform:uppercase;letter-spacing:.08em;">{icn} {escape(lbl)}</div>
-    <div style="color:{color};font-weight:700;font-size:.97rem;
-        margin-top:.3rem;">{escape(str(val))}</div>
-</div>""", unsafe_allow_html=True)
+    <div style="background:{_c_card2};border:1px solid {_c_border};
+        border-left:3px solid {color};border-radius:14px;padding:1rem;">
+        <div style="color:{_c_muted};font-size:.68rem;font-weight:700;
+            text-transform:uppercase;letter-spacing:.08em;">{icn} {escape(lbl)}</div>
+        <div style="color:{color};font-weight:700;font-size:.97rem;
+            margin-top:.3rem;">{escape(str(val))}</div>
+    </div>""", unsafe_allow_html=True)
 
             st.markdown("<div style='height:.5rem;'></div>", unsafe_allow_html=True)
             c4, c5 = st.columns(2)
             with c4:
                 st.markdown(f"""
-<div style="background:{_c_card2};border:1px solid {_c_border};
-    border-left:3px solid {_c_accent};border-radius:14px;padding:1rem;">
-    <div style="color:{_c_muted};font-size:.68rem;font-weight:700;
-        text-transform:uppercase;letter-spacing:.08em;">📝 Summary</div>
-    <div style="color:{_c_text};font-size:.9rem;margin-top:.3rem;">
-        {escape(str(ai['summary']))}</div>
-</div>""", unsafe_allow_html=True)
+    <div style="background:{_c_card2};border:1px solid {_c_border};
+        border-left:3px solid {_c_accent};border-radius:14px;padding:1rem;">
+        <div style="color:{_c_muted};font-size:.68rem;font-weight:700;
+            text-transform:uppercase;letter-spacing:.08em;">📝 Summary</div>
+        <div style="color:{_c_text};font-size:.9rem;margin-top:.3rem;">
+            {escape(str(ai['summary']))}</div>
+    </div>""", unsafe_allow_html=True)
             with c5:
                 st.markdown(f"""
-<div style="background:{_c_card2};border:1px solid {_c_border};
-    border-left:3px solid {sen_color};border-radius:14px;padding:1rem;">
-    <div style="color:{_c_muted};font-size:.68rem;font-weight:700;
-        text-transform:uppercase;letter-spacing:.08em;">💬 Sentiment</div>
-    <div style="color:{sen_color};font-weight:700;font-size:.97rem;
-        margin-top:.3rem;">{escape(str(ai['sentiment']))}</div>
-</div>""", unsafe_allow_html=True)
+    <div style="background:{_c_card2};border:1px solid {_c_border};
+        border-left:3px solid {sen_color};border-radius:14px;padding:1rem;">
+        <div style="color:{_c_muted};font-size:.68rem;font-weight:700;
+            text-transform:uppercase;letter-spacing:.08em;">💬 Sentiment</div>
+        <div style="color:{sen_color};font-weight:700;font-size:.97rem;
+            margin-top:.3rem;">{escape(str(ai['sentiment']))}</div>
+    </div>""", unsafe_allow_html=True)
 
-            st.markdown("<div style='height:.5rem;'></div>", unsafe_allow_html=True)
+            st.mark("<div style='height:.5rem;'></div>", unsafe_allow_html=True)
             with st.expander("💬 Auto-generated Reply", expanded=True):
                 st.markdown(f"""
-<div style="background:{_c_bg};border-radius:10px;padding:.9rem 1.1rem;
-    color:{_c_text};font-size:.9rem;line-height:1.7;
-    border:1px solid {_c_bs};">
-    {escape(str(ai['auto_reply'])).replace(chr(10), '<br>')}
-</div>""", unsafe_allow_html=True)
+    <div style="background:{_c_bg};border-radius:10px;padding:.9rem 1.1rem;
+        color:{_c_text};font-size:.9rem;line-height:1.7;
+        border:1px solid {_c_bs};">
+        {escape(str(ai['auto_reply'])).replace(chr(10), '<br>')}
+    </div>""", unsafe_allow_html=True)
 
             st.markdown(f"""
-<div style="background:{_c_card};border:1px solid {_c_green}55;
-    border-left:3px solid {_c_green};border-radius:12px;
-    padding:.8rem 1.2rem;margin-top:.8rem;">
-    <span style="color:{_c_green};font-weight:700;">🎫 Ticket ID: #{tid}</span>
-    <span style="color:{_c_muted};font-size:.85rem;margin-left:1rem;">
-        Use this on the Track Ticket page to follow up.</span>
-</div>""", unsafe_allow_html=True)
+    <div style="background:{_c_card};border:1px solid {_c_green}55;
+        border-left:3px solid {_c_green};border-radius:12px;
+        padding:.8rem 1.2rem;margin-top:.8rem;">
+        <span style="color:{_c_green};font-weight:700;">🎫 Ticket ID: #{tid}</span>
+        <span style="color:{_c_muted};font-size:.85rem;margin-left:1rem;">
+            Use this on the Track Ticket page to follow up.</span>
+    </div>""", unsafe_allow_html=True)

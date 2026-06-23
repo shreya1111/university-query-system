@@ -9,8 +9,17 @@ from components.ticket_card import ticket_card
 from styles.custom_css import inject_css
 from styles.theme import COLORS
 from features.ticket_management.service import TicketService
+from features.auth.auth_utils import require_login
+from features.auth.session import get_session
 
 st.set_page_config(page_title="Faculty Panel", page_icon=APP_ICON, layout="wide")
+require_login()
+# Check if the user is faculty
+session = get_session()
+if session.get("role") != "Faculty":
+    st.error("Access denied: This page is for faculty only.")
+    st.stop()
+
 inject_css()
 initialize_database()
 render_sidebar()
@@ -22,29 +31,7 @@ _c_card  = COLORS["card"]
 _c_card2 = COLORS["card2"]
 _c_border = COLORS["border"]
 
-if "faculty_auth" not in st.session_state:
-    st.session_state.faculty_auth = False
-
-if not st.session_state.faculty_auth:
-    page_header("👨‍🏫 Faculty Panel", "Restricted access — please log in.")
-    _, lc, _ = st.columns([1, 2, 1])
-    with lc:
-        st.markdown(dedent(f"""
-        <div style="background:linear-gradient(145deg,{_c_card},{_c_card2});
-            border:1px solid {_c_border};border-radius:20px;padding:2rem;">
-        """), unsafe_allow_html=True)
-        with st.form("login_form"):
-            user = st.text_input("👤 Username")
-            pwd  = st.text_input("🔒 Password", type="password")
-            ok   = st.form_submit_button("🔐  Login", use_container_width=True)
-        st.markdown("</div>", unsafe_allow_html=True)
-        if ok:
-            if user == "faculty" and pwd == "admin123":
-                st.session_state.faculty_auth = True
-                st.rerun()
-            else:
-                st.error("Invalid credentials.  (faculty / admin123)")
-    st.stop()
+svc = TicketService()
 
 col_h, col_btn = st.columns([5, 1])
 with col_h:
@@ -52,10 +39,9 @@ with col_h:
 with col_btn:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("🚪 Logout"):
-        st.session_state.faculty_auth = False
+        from features.auth.service import logout_user
+        logout_user()
         st.rerun()
-
-svc = TicketService()
 
 st.markdown(dedent(f"""
 <div style="background:linear-gradient(145deg,{_c_card},{_c_card2});

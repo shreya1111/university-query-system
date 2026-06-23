@@ -1,19 +1,38 @@
 import streamlit as st
 from datetime import date
 from textwrap import dedent
+import os
 from core.config import APP_TITLE, APP_ICON
 from core.database import initialize_database, get_stats
 from components.sidebar import render_sidebar
 from components.metric_card import metric_card
 from styles.custom_css import inject_css
 from styles.theme import COLORS
+from features.auth.auth_utils import require_login
 
+# Set page config first
 st.set_page_config(
     page_title=APP_TITLE,
     page_icon=APP_ICON,
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# Check authentication and redirect to login if not logged in
+# (allows login and register pages to be accessed without login)
+require_login()
+
+# Now we know the user is logged in (or we are on login/register page, but require_login would have redirected)
+# Initialize auth state to ensure session variables exist (required for later use)
+from features.auth.session import init_auth_state
+init_auth_state()
+
+# Get user info for personalized welcome
+from features.auth.session import get_session
+session = get_session()
+username = session.get("username", "User")
+role = session.get("role", "Guest")
+
 inject_css()
 initialize_database()
 render_sidebar()
@@ -37,7 +56,7 @@ st.markdown(dedent(f"""
     margin-bottom:1.6rem;flex-wrap:wrap;gap:1rem;">
     <div>
         <h1 style="color:{_c_text};font-size:2rem;font-weight:800;margin:0;">
-            Welcome back, Admin 👋
+            Welcome back, {username} 👋
         </h1>
         <p style="color:{_c_muted};margin:.4rem 0 0;font-size:.92rem;">
             Here's what's happening with your queries today.

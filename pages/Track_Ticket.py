@@ -8,8 +8,10 @@ from components.ticket_card import ticket_card
 from styles.custom_css import inject_css
 from styles.theme import COLORS
 from features.ticket_management.service import TicketService
+from features.auth.auth_utils import require_login
 
 st.set_page_config(page_title="Track Ticket", page_icon=APP_ICON, layout="wide")
+require_login()
 inject_css()
 initialize_database()
 render_sidebar()

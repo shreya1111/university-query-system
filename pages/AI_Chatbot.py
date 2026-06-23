@@ -7,8 +7,10 @@ from components.cards import page_header
 from styles.custom_css import inject_css
 from styles.theme import COLORS
 from features.ai.chatbot.chatbot import chat, get_history, clear_history
+from features.auth.auth_utils import require_login
 
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="wide")
+require_login()
 inject_css()
 initialize_database()
 render_sidebar()

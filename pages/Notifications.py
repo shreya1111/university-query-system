@@ -13,8 +13,10 @@ from features.notifications.service import (
     clear_notifications,
     unread_count,
 )
+from features.auth.auth_utils import require_login
 
 st.set_page_config(page_title="Notifications", page_icon="🔔", layout="wide")
+require_login()
 inject_css()
 initialize_database()
 render_sidebar()
@@ -57,7 +59,7 @@ if not notifs:
     st.markdown(f"""
     <div style="background:{COLORS['card']};border:1px solid {COLORS['border']};
         border-radius:16px;padding:2.5rem;text-align:center;margin-top:1rem;">
-        <div style="font-size:2.5rem;margin-bottom:.7rem;">🔔</div>
+        <div>🔔</div>
         <div style="color:{COLORS['text']};font-weight:700;font-size:1rem;">
             No notifications yet</div>
         <div style="color:{COLORS['muted']};font-size:.85rem;margin-top:.3rem;">

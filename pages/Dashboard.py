@@ -10,8 +10,10 @@ from components.metric_card import metric_card
 from features.ticket_management.service import TicketService
 from styles.custom_css import inject_css
 from styles.theme import COLORS, CHART_COLORS, PRIORITY_COLORS
+from features.auth.auth_utils import require_login
 
 st.set_page_config(page_title="Dashboard", page_icon=APP_ICON, layout="wide")
+require_login()
 inject_css()
 initialize_database()
 render_sidebar()

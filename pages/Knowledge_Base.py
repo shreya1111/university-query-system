@@ -7,8 +7,10 @@ from components.cards import page_header
 from styles.custom_css import inject_css
 from styles.theme import COLORS
 from features.ai.rag.rag_engine import query_rag, RAGResult
+from features.auth.auth_utils import require_login
 
 st.set_page_config(page_title="Knowledge Base", page_icon="📚", layout="wide")
+require_login()
 inject_css()
 initialize_database()
 render_sidebar()
@@ -92,7 +94,7 @@ if trigger and search_q.strip():
             )
             try:
                 from features.ai.rag.retriever import retrieve_documents
-                docs = retrieve_documents(search_q.strip())
+                docs = retrieve_documents(strip())
                 if docs:
                     st.markdown(
                         f"<div style='color:{_c_text};font-size:.9rem;"
