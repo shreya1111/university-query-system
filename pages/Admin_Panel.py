@@ -53,8 +53,22 @@ def _info_card(label, value, color):
     )
 
 
+# ── Helper to reset filters without mutating bound widget keys ──
+def _reset_admin_filters():
+    keys = [
+        "admin_dept_filter",
+        "admin_pri_filter",
+        "admin_status_filter",
+        "admin_sentiment_filter",
+        "admin_intent_filter",
+        "admin_search_ticket_id",
+        "admin_search_student_name",
+    ]
+    for k in keys:
+        st.session_state.pop(k, None)
+
+
 # ── Session state defaults (BEFORE any widgets) ───────────────────────────────
-# FIX: only set defaults; never reassign after widget renders with same key
 _DEFAULTS = {
     "admin_dept_filter":         [],
     "admin_pri_filter":          [],
@@ -110,9 +124,9 @@ with f6:
                   key="admin_search_ticket_id")
 with f7:
     st.markdown("<br>", unsafe_allow_html=True)
+    # ── FIX: delete keys instead of assigning ──
     if st.button("🔄 Reset", use_container_width=True):
-        for k in _DEFAULTS:
-            st.session_state.pop(k, None)
+        _reset_admin_filters()
         st.rerun()
 
 s1, s2, s3 = st.columns([6, 2, 2])
@@ -125,6 +139,7 @@ with s2:
         st.rerun()
 with s3:
     st.markdown("<br>", unsafe_allow_html=True)
+    # ── FIX: delete keys instead of assigning ──
     if st.button("🧹 Clear Search", use_container_width=True):
         st.session_state.pop("admin_search_ticket_id", None)
         st.session_state.pop("admin_search_student_name", None)
@@ -263,14 +278,14 @@ else:
         with t3: st.write(ticket.get("department",""))
         with t4:
             pri = ticket.get("priority","")
-            st.markdown(f"<span style='color:{PRIORITY_COLORS.get(pri, _c_muted)};font-weight:bold;'>{pri}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{PRIORITY_COLORS.get(pri,COLORS['muted'])};font-weight:bold;'>{pri}</span>", unsafe_allow_html=True)
         with t5:
             sta = ticket.get("status","")
-            st.markdown(f"<span style='color:{STATUS_COLORS.get(sta, _c_muted)};font-weight:bold;'>{sta}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{STATUS_COLORS.get(sta,COLORS['muted'])};font-weight:bold;'>{sta}</span>", unsafe_allow_html=True)
         with t6: st.write(ticket.get("intent",""))
         with t7:
             sent = ticket.get("sentiment","")
-            st.markdown(f"<span style='color:{SENTIMENT_COLORS.get(sent, _c_muted)};font-weight:bold;'>{sent}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{SENTIMENT_COLORS.get(sent,COLORS['muted'])};font-weight:bold;'>{sent}</span>", unsafe_allow_html=True)
         with t8: st.write(str(ticket.get("created_at",""))[:16])
         with t9:
             a1, a2 = st.columns(2)

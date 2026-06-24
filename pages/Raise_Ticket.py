@@ -66,7 +66,6 @@ with form_col:
             pri_color = PRIORITY_COLORS.get(ai["priority"], COLORS["muted"])
             sen_color = SENTIMENT_COLORS.get(ai["sentiment"], COLORS["muted"])
 
-            # FIX: was COLORS['text'] inside single-quoted outer string → raw HTML
             st.markdown(
                 f"<div style='color:{_c_text};font-weight:700;"
                 f"font-size:.95rem;margin-bottom:.7rem;'>🤖 AI Intelligence Report</div>",
@@ -110,7 +109,9 @@ with form_col:
             margin-top:.3rem;">{escape(str(ai['sentiment']))}</div>
     </div>""", unsafe_allow_html=True)
 
-            st.mark("<div style='height:.5rem;'></div>", unsafe_allow_html=True)
+            # ── FIX: incorrect `st.mark` → `st.markdown` ──
+            st.markdown("<div style='height:.5rem;'></div>", unsafe_allow_html=True)
+
             with st.expander("💬 Auto-generated Reply", expanded=True):
                 st.markdown(f"""
     <div style="background:{_c_bg};border-radius:10px;padding:.9rem 1.1rem;
