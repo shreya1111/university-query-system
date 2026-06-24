@@ -21,7 +21,6 @@ pip-delete-this-directory.txt
 # Secrets & Environment (NEVER commit these!)
 # ==========================
 .env
-.env.*
 local_settings.py
 .streamlit/secrets.toml   # CRITICAL: Use Streamlit Cloud secrets dashboard instead!
 
