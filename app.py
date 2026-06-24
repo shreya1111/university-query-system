@@ -1,7 +1,20 @@
+# ============================================================
+#  🔥 CRITICAL: MUST be set before importing any other module
+# ============================================================
+import os
+
+# Disable ChromaDB telemetry (skips OpenTelemetry imports)
+os.environ["CHROMA_TELEMETRY_IMPL"] = "none"
+
+# Use pure-Python protobuf parser to avoid descriptor errors
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
+# ============================================================
+#  Regular imports
+# ============================================================
 import streamlit as st
 from datetime import date
 from textwrap import dedent
-import os
 from core.config import APP_TITLE, APP_ICON
 from core.database import initialize_database, get_stats
 from components.sidebar import render_sidebar
