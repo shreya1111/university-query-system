@@ -39,11 +39,14 @@ def _connect() -> sqlite3.Connection:
 
 
 def initialize_database() -> None:
+    """Create tables and apply migrations if they don't exist."""
     if not os.path.exists(SCHEMA_PATH):
-        return
+        raise FileNotFoundError(f"Schema file not found: {SCHEMA_PATH}")
+
     with _connect() as conn:
-        with open(SCHEMA_PATH) as f:
+        with open(SCHEMA_PATH, encoding="utf-8") as f:
             conn.executescript(f.read())
+
         # Phase 2B: migrate existing DB — add AI columns if absent
         existing = {r[1] for r in conn.execute("PRAGMA table_info(tickets)").fetchall()}
         for col, definition in [
@@ -55,10 +58,18 @@ def initialize_database() -> None:
             if col not in existing:
                 conn.execute(f"ALTER TABLE tickets ADD COLUMN {col} {definition}")
         migrate_ticket_queries_to_plain_text(conn)
+
         # Phase 2C: add read column to notifications if absent
         notification_cols = {r[1] for r in conn.execute("PRAGMA table_info(notifications)").fetchall()}
         if "read" not in notification_cols:
             conn.execute("ALTER TABLE notifications ADD COLUMN read INTEGER DEFAULT 0")
+
+        # Verify that the users table exists (critical for login)
+        table_exists = conn.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' AND name='users'"
+        ).fetchone()
+        if not table_exists:
+            raise RuntimeError("Database initialisation failed – 'users' table not created.")
 
 
 def migrate_ticket_queries_to_plain_text(conn: sqlite3.Connection) -> None:
@@ -143,11 +154,11 @@ def get_tickets_filtered(
     conditions, params = [], []
     if department:
         if isinstance(department, list):
-            if department:  # only if list is not empty
+            if department:
                 placeholders = ", ".join(["?"] * len(department))
                 conditions.append(f"department IN ({placeholders})")
                 params.extend(department)
-        else:  # string
+        else:
             conditions.append("department = ?")
             params.append(department)
     if priority:
@@ -187,11 +198,9 @@ def get_tickets_filtered(
             conditions.append("intent = ?")
             params.append(intent)
     if search_ticket_id:
-        # Cast ticket_id to TEXT and use LIKE for partial match
         conditions.append("CAST(ticket_id AS TEXT) LIKE ?")
         params.append(f"%{search_ticket_id}%")
     if search_student_name:
-        # Case-insensitive partial match on student_name
         conditions.append("student_name LIKE ?")
         params.append(f"%{search_student_name}%")
     where = ("WHERE " + " AND ".join(conditions)) if conditions else ""

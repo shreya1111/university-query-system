@@ -1,0 +1,9 @@
+data/rag/AcademicIntegrityPolicy.pdf filter=lfs diff=lfs merge=lfs -text
+data/rag/AntiRaggingPolicy.pdf filter=lfs diff=lfs merge=lfs -text
+data/rag/CourseRegistrationGuide.pdf filter=lfs diff=lfs merge=lfs -text
+data/rag/DegreeRequirements.pdf filter=lfs diff=lfs merge=lfs -text
+models/intent_model/model.pkl filter=lfs diff=lfs merge=lfs -text
+models/priority_model/model.pkl filter=lfs diff=lfs merge=lfs -text
+models/sentiment_model/model.pkl filter=lfs diff=lfs merge=lfs -text
+vectorstore/chroma_db/3ab06f0f-d356-4fa6-9743-41eafcb4964b/data_level0.bin filter=lfs diff=lfs merge=lfs -text
+vectorstore/chroma_db/chroma.sqlite3 filter=lfs diff=lfs merge=lfs -text

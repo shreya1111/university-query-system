@@ -1,20 +1,7 @@
-# ============================================================
-#  🔥 CRITICAL: MUST be set before importing any other module
-# ============================================================
-import os
-
-# Disable ChromaDB telemetry (skips OpenTelemetry imports)
-os.environ["CHROMA_TELEMETRY_IMPL"] = "none"
-
-# Use pure-Python protobuf parser to avoid descriptor errors
-os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
-
-# ============================================================
-#  Regular imports
-# ============================================================
 import streamlit as st
 from datetime import date
 from textwrap import dedent
+import os
 from core.config import APP_TITLE, APP_ICON
 from core.database import initialize_database, get_stats
 from components.sidebar import render_sidebar
@@ -31,12 +18,13 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Check authentication and redirect to login if not logged in
-# (allows login and register pages to be accessed without login)
+# ── Initialise database FIRST ──────────────────────────────────────────────
+initialize_database()
+
+# ── Authentication (now database tables exist) ────────────────────────────
 require_login()
 
-# Now we know the user is logged in (or we are on login/register page, but require_login would have redirected)
-# Initialize auth state to ensure session variables exist (required for later use)
+# Now we know the user is logged in (or on login/register page)
 from features.auth.session import init_auth_state
 init_auth_state()
 
@@ -47,14 +35,12 @@ username = session.get("username", "User")
 role = session.get("role", "Guest")
 
 inject_css()
-initialize_database()
 render_sidebar()
 
 stats = get_stats()
 today = date.today().strftime("%A, %B %d %Y")
 
 # Pre-assign colour tokens to avoid nested-quote breakage inside f-strings
-# that use single-quoted HTML attributes (e.g. style='color:...').
 _c_text         = COLORS["text"]
 _c_muted        = COLORS["muted"]
 _c_card         = COLORS["card"]
@@ -116,9 +102,6 @@ for row in rows:
     cols = st.columns(3)
     for col, (page, icon, label, desc, color) in zip(cols, row):
         with col:
-            # The card IS the visual header; the single button below is the
-            # call-to-action. One consistent element — no separate decorative
-            # div plus a redundant "Open X" button.
             st.markdown(dedent(f"""
             <div style="background:linear-gradient(145deg,{_c_card},{_c_card2});
                 border:1px solid {_c_border};border-radius:18px;padding:1.3rem;
