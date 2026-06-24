@@ -71,9 +71,3 @@ reports/*.tmp   # Ignore temp reports, but not all .txt files
 .ipynb_checkpoints/
 .cache/
 .mypy_cache/
-
-
-# Vector database
-vectorstore/
-chroma_db/
-data/chroma_db/
