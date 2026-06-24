@@ -111,8 +111,8 @@ with f6:
 with f7:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("🔄 Reset", use_container_width=True):
-        for k, v in _DEFAULTS.items():
-            st.session_state[k] = v
+        for k in _DEFAULTS:
+            st.session_state.pop(k, None)
         st.rerun()
 
 s1, s2, s3 = st.columns([6, 2, 2])
@@ -126,8 +126,8 @@ with s2:
 with s3:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("🧹 Clear Search", use_container_width=True):
-        st.session_state.admin_search_ticket_id    = ""
-        st.session_state.admin_search_student_name = ""
+        st.session_state.pop("admin_search_ticket_id", None)
+        st.session_state.pop("admin_search_student_name", None)
         st.rerun()
 
 # ── Read values from session state ───────────────────────────────────────────
@@ -263,14 +263,14 @@ else:
         with t3: st.write(ticket.get("department",""))
         with t4:
             pri = ticket.get("priority","")
-            st.markdown(f"<span style='color:{PRIORITY_COLORS.get(pri,COLORS['muted'])};font-weight:bold;'>{pri}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{PRIORITY_COLORS.get(pri, _c_muted)};font-weight:bold;'>{pri}</span>", unsafe_allow_html=True)
         with t5:
             sta = ticket.get("status","")
-            st.markdown(f"<span style='color:{STATUS_COLORS.get(sta,COLORS['muted'])};font-weight:bold;'>{sta}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{STATUS_COLORS.get(sta, _c_muted)};font-weight:bold;'>{sta}</span>", unsafe_allow_html=True)
         with t6: st.write(ticket.get("intent",""))
         with t7:
             sent = ticket.get("sentiment","")
-            st.markdown(f"<span style='color:{SENTIMENT_COLORS.get(sent,COLORS['muted'])};font-weight:bold;'>{sent}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{SENTIMENT_COLORS.get(sent, _c_muted)};font-weight:bold;'>{sent}</span>", unsafe_allow_html=True)
         with t8: st.write(str(ticket.get("created_at",""))[:16])
         with t9:
             a1, a2 = st.columns(2)
