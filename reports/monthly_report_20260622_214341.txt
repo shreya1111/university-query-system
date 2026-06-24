@@ -1,0 +1,14 @@
+MONTHLY ANALYTICS REPORT
+Generated: 22 Jun 2026 21:43
+=============================================
+Total Tickets   : 3
+Resolved        : 0
+Resolution Rate : 0.0%
+Avg Days Open   : 0.2
+
+SENTIMENT BREAKDOWN
+  Neutral: 2
+  Negative: 1
+
+TOP INTENTS
+  Examination: 3

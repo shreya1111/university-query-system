@@ -1,79 +1,74 @@
 # ==========================
-# Python
+# Python & Byte-compiled
 # ==========================
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.pyd
 
-# Virtual environments
+# ==========================
+# Virtual Environments
+# ==========================
 venv/
 env/
 ENV/
 .venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Environment variables
+# ==========================
+# Secrets & Environment (NEVER commit these!)
+# ==========================
 .env
 .env.*
+local_settings.py
+.streamlit/secrets.toml   # CRITICAL: Use Streamlit Cloud secrets dashboard instead!
 
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
+# ==========================
+# IDE / Editor Files
+# ==========================
 .vscode/
-
-# PyCharm
 .idea/
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Logs
-*.log
-
-# Database files
-*.db
-*.sqlite3
-
-# Reports
-reports/*.txt
-
-# Vector database
-vectorstore/
-chroma_db/
-data/chroma_db/
-
-
-# Temporary files
-*.tmp
-*.tmp.*
-*.bak
 *.swp
-recovered_file.txt
-
-# OS files
+*.swo
+*~
 .DS_Store
 Thumbs.db
 
-# Build and distribution
+# ==========================
+# Build / Distribution
+# ==========================
 build/
 dist/
 *.egg-info/
-
-# Coverage and testing
-.coverage
-.pytest_cache/
-htmlcov/
-
-# Cache directories
-.cache/
-
-# PyInstaller
+.eggs/
 *.spec
+__pycache__/
 
+# ==========================
+# Testing & Coverage
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# Ignore compiled Python files
-*.pyc
-*.pyo
+# ==========================
+# Logs & Temporary Files
+# ==========================
+*.log
+*.tmp
+*.tmp.*
+*.bak
+reports/*.tmp   # Ignore temp reports, but not all .txt files
 
-# Ignore local configuration
-local_settings.py
+# ==========================
+# Jupyter / Misc Caches
+# ==========================
+.ipynb_checkpoints/
+.cache/
+.mypy_cache/

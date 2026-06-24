@@ -1,0 +1,11 @@
+UNIVERSITY QUERY MANAGEMENT SYSTEM
+Report generated: 22 Jun 2026 21:43
+==================================================
+Total Tickets   : 3
+Resolved        : 0
+Resolution Rate : 0.0%
+Avg Days Open   : 0.2
+
+DEPARTMENT BREAKDOWN
+------------------------------
+  Examination Department    total=3  resolved=0  pending=3
